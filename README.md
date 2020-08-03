@@ -2,9 +2,28 @@
 
 # ¡Bienvenidos a Girl Up Uniandes! 
 
-> ¡Esta es la página web de [Girl Up Uniandes](https://girlup-uniandes.github.io/)!
+### ¡Esta es la página web de [Girl Up Uniandes](https://girlup-uniandes.github.io/)!
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://www.vCloudInfo.com/tag/iot">
+      Sobre Girl Up
+    </a>
+    <span> | </span>
+    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#devices">
+      Sobre Girl Up Uniandes
+    </a>
+    <span> | </span>
+    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+      Corre el proyecto localmente
+    </a>
+   <span> | </span>
+    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+      Contribuye a la página
+    </a>
+  </h4>
+</div>
 
-> View this readme in English
+###### View this readme in English
 
 Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hacer un [Pull Request](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls)! 
 
@@ -14,7 +33,7 @@ Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hac
  <p align="justify">Con <a href="https://girlup-uniandes.github.io//">Girl Up Uniandes</a> queremos generar un impacto en nuestra comunidad uniandina, en nuestra ciudad, Bogotá y en nuestro país, Colombia. Descubre nuestro programa de mentorías para niñas de colegio, estudiantes de primer semestre y estudiantes a punto de graduarse de la U. Ayúdanos a promover la educación, porque educar a una niña, es educar a todo un país. ¡Apóyanos a llevar STEAM (ciencia, tecnología, ingeniería, arte y matemáticas) a todos los rincones de nuestro hermoso país y del mundo! ¿Quieres apoyarnos? ¿Tienes grandes ideas para compartir? ¡Compártenos tu historia! <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u">Inscríbete aquí</a></p>
 
 
-###### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
+#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
 
 
@@ -22,13 +41,32 @@ Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hac
 
 # Welcome to Girl Up Uniandes!
 
->This is [Girl Up Uniandes' webpage](https://girlup-uniandes.github.io/)!
+### This is [Girl Up Uniandes' webpage](https://girlup-uniandes.github.io/)!
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://www.vCloudInfo.com/tag/iot">
+      About Girl Up
+    </a>
+    <span> | </span>
+    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#devices">
+      About Girl Up Uniandes
+    </a>
+    <span> | </span>
+    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+      Run the project locally
+    </a>
+   <span> | </span>
+    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+      Contribute to the webpage
+    </a>
+  </h4>
+</div>
 
-> Ver este readme en Español
+###### Ver este readme en Español
 
 If you want to contribute or help us improve, please make a [Pull Request](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls)!
 
 If you want more information about Girl Up, please follow this [link!](https://girlup.org/)
 
-###### Made with :heart: &nbsp; by [@camilalonart](https://github.com/camilalonart) and [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
+#### Made with :heart: &nbsp; by [@camilalonart](https://github.com/camilalonart) and [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 

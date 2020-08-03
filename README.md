@@ -1,44 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="120" width="120"/>  
 
-## Available Scripts
+# ¡Bienvenidos a Girl Up Uniandes! 
 
-In the project directory, you can run:
+> ¡Esta es la página web de [Girl Up Uniandes](https://girlup-uniandes.github.io/)!
 
-### `yarn start`
+> View this readme in English
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hacer un [Pull Request](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls)! 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+ <p align="justify"> <a href="https://girlup.org/">Girl Up</a> es una iniciativa apoyada por la Fundación de las Naciones Unidas que busca, por medio del liderazgo y el activismo sobre los derechos humanos, ayudar a jóvenes alrededor del mundo a tomar acción en sus comunidades mediante proyectos de alto impacto social para la igualdad de género. Nuestro objetivo es crear un equipo de líderes críticos y comprometidos con la ejecución de proyectos multidisciplinares, que conlleven a la solución de problemáticas que enfrentamos las nuevas generaciones relacionadas con la igualdad de género, la desigualdad social y el cambio ambiental. </p>
+ <p>Si quieres conocer más sobre Girl Up, ¡haz click en este <a href="https://girlup.org/">link!</a></p>
+ <p align="justify">Con <a href="https://girlup-uniandes.github.io//">Girl Up Uniandes</a> queremos generar un impacto en nuestra comunidad uniandina, en nuestra ciudad, Bogotá y en nuestro país, Colombia. Descubre nuestro programa de mentorías para niñas de colegio, estudiantes de primer semestre y estudiantes a punto de graduarse de la U. Ayúdanos a promover la educación, porque educar a una niña, es educar a todo un país. ¡Apóyanos a llevar STEAM (ciencia, tecnología, ingeniería, arte y matemáticas) a todos los rincones de nuestro hermoso país y del mundo! ¿Quieres apoyarnos? ¿Tienes grandes ideas para compartir? ¡Compártenos tu historia! <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u">Inscríbete aquí</a></p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+###### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="120" width="120"/>  
 
-### `yarn eject`
+# Welcome to Girl Up Uniandes!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+>This is [Girl Up Uniandes' webpage](https://girlup-uniandes.github.io/)!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Ver este readme en Español
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you want to contribute or help us improve, please make a [Pull Request](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls)!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you want more information about Girl Up, please follow this [link!](https://girlup.org/)
 
-## Learn More
+###### Made with :heart: &nbsp; by [@camilalonart](https://github.com/camilalonart) and [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

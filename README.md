@@ -1,6 +1,6 @@
 <img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="120" width="120"/>  
 
-# ¡Bienvenidos a Girl Up Uniandes! 
+# ¡Bienvenidos a Girl Up Uniandes! [![Badge](https://github.com/ellerbrock/open-source-badges/blob/master/badges/open-source-v1/open-source.svg)](https://github.com/GirlUp-Uniandes)
 ###### View this readme in [English](#welcome-to-girl-up-uniandes)
 ### ¡Esta es la página web de [Girl Up Uniandes](https://girlup-uniandes.github.io/)!
 #### ¿Quieres participar? [¡Inscríbete aquí!](https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u)

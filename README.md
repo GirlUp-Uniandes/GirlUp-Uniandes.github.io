@@ -1,7 +1,7 @@
 <img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="120" width="120"/>  
 
 # ¡Bienvenidos a Girl Up Uniandes! 
-
+###### View this readme in [English](#welcome-to-girl-up-uniandes)
 ### ¡Esta es la página web de [Girl Up Uniandes](https://girlup-uniandes.github.io/)!
 #### ¿Quieres participar? [¡Inscríbete aquí!](https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u)
 #### Visítanos en nuestras redes sociales: 
@@ -10,11 +10,14 @@
 [![Instagram](https://image.flaticon.com/icons/png/512/87/87390.png =64x64)](https://www.instagram.com/girlupuniandes/)
 [![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
 
-###### View this readme in [English](#welcome-to-girl-up-uniandes)
 <div align="center"><a name="menu"></a>
   <h4>
     <a href="https://girlup-uniandes.github.io/">
       ¡Visita nuestra página!
+    </a>
+    <span> | </span>
+    <a href="#redes-sociales-es">
+      ¡Visita nuestras redes sociales!
     </a>
     <span> | </span>
     <a href=#girl-up-es>
@@ -77,6 +80,9 @@
 
 #### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
+<h2 name="redes-sociales-es">Visítanos en nuestras redes sociales</h2>
+
+#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
 <img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="120" width="120"/>  
 

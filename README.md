@@ -4,11 +4,9 @@
 > ¡Esta es la página web de [Girl Up Uniandes](https://girlup-uniandes.github.io/)!
 ##### View this readme in [English](#welcome-to-girl-up-uniandes)
 #### ¿Quieres participar? [¡Inscríbete aquí!](https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u)
-#### Visítanos en nuestras redes sociales: 
-[![Twitter](http://i.imgur.com/wWzX9uB.png)](http://www.twitter.com/)
-[![Facebook](http://i.imgur.com/fep1WsG.png)](https://www.facebook.com/Girl-Up-Uniandes-804056183317181)
-[<img src="https://image.flaticon.com/icons/png/512/87/87390.png" height="20">](https://www.instagram.com/girlupuniandes/)
-[![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
+#### Visítanos en nuestras redes sociales: [![Twitter](http://i.imgur.com/wWzX9uB.png)](http://www.twitter.com/)&nbsp;[![Facebook](http://i.imgur.com/fep1WsG.png)](https://www.facebook.com/Girl-Up-Uniandes-804056183317181)&nbsp;[<img src="https://image.flaticon.com/icons/png/512/87/87390.png" height="20">](https://www.instagram.com/girlupuniandes/)&nbsp;&nbsp;[![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
+
+
 
 <div align="center"><a name="menu"></a>
   <h4>

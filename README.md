@@ -3,8 +3,13 @@
 # ¡Bienvenidos a Girl Up Uniandes! 
 
 ### ¡Esta es la página web de [Girl Up Uniandes](https://girlup-uniandes.github.io/)!
+###### View this readme in [English](#welcome-to-girl-up-uniandes)
 <div align="center"><a name="menu"></a>
   <h4>
+    <a href="https://girlup-uniandes.github.io/">
+      ¡Visita nuestra página!
+    </a>
+    <span> | </span>
     <a href="https://www.vCloudInfo.com/tag/iot">
       Sobre Girl Up
     </a>
@@ -23,7 +28,6 @@
   </h4>
 </div>
 
-###### View this readme in English
 
 Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hacer un [Pull Request](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls)! 
 
@@ -42,8 +46,14 @@ Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hac
 # Welcome to Girl Up Uniandes!
 
 ### This is [Girl Up Uniandes' webpage](https://girlup-uniandes.github.io/)!
+###### Ver este readme en [Español](#bienvenidos-a-girl-up-uniandes)
+
 <div align="center"><a name="menu"></a>
   <h4>
+    <a href="https://girlup-uniandes.github.io/">
+      Visita our webpage!
+    </a>
+    <span> | </span>
     <a href="https://www.vCloudInfo.com/tag/iot">
       About Girl Up
     </a>
@@ -62,7 +72,6 @@ Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hac
   </h4>
 </div>
 
-###### Ver este readme en Español
 
 If you want to contribute or help us improve, please make a [Pull Request](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls)!
 

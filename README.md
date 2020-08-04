@@ -38,7 +38,7 @@
  
 ### Visítanos en nuestras redes sociales: [![Twitter](http://i.imgur.com/wWzX9uB.png)](http://www.twitter.com/)&nbsp;[![Facebook](http://i.imgur.com/fep1WsG.png)](https://www.facebook.com/Girl-Up-Uniandes-804056183317181)&nbsp;[<img src="https://image.flaticon.com/icons/png/512/87/87390.png" height="20">](https://www.instagram.com/girlupuniandes/)&nbsp;&nbsp;[![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
 
-#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
+##### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
  <h2 name="girl-up-uniandes-es"> Sobre Girl Up Uniandes</h2>
  <p align="justify">Con <a href="https://girlup-uniandes.github.io//">Girl Up Uniandes</a> queremos generar un impacto en nuestra comunidad uniandina, en nuestra ciudad, Bogotá y en nuestro país, Colombia. Descubre nuestro programa de mentorías para niñas de colegio, estudiantes de primer semestre y estudiantes a punto de graduarse de la U. Ayúdanos a promover la educación, porque educar a una niña, es educar a todo un país. ¡Apóyanos a llevar STEAM (ciencia, tecnología, ingeniería, arte y matemáticas) a todos los rincones de nuestro hermoso país y del mundo! </p>
@@ -47,9 +47,12 @@
 
 ### Visítanos en nuestras redes sociales: [![Twitter](http://i.imgur.com/wWzX9uB.png)](http://www.twitter.com/)&nbsp;[![Facebook](http://i.imgur.com/fep1WsG.png)](https://www.facebook.com/Girl-Up-Uniandes-804056183317181)&nbsp;[<img src="https://image.flaticon.com/icons/png/512/87/87390.png" height="20">](https://www.instagram.com/girlupuniandes/)&nbsp;&nbsp;[![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
 
-#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
+##### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
 <h2 name="run-es">Corre el proyecto localmente</h2>
+
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://girlup-uniandes.github.io/) 
+
 <ol>
   <li>Después de clonar el proyecto, entra a la carpeta <code>girl-up-uniandes.</code></li>
   <li>Si aún no tienes npm, <a href="https://www.npmjs.com/get-npm">instálalo</a>. Te recomendamos: <code> npm install npm@latest -g></code></li>
@@ -60,11 +63,12 @@
 
 ### Visítanos en nuestras redes sociales: [![Twitter](http://i.imgur.com/wWzX9uB.png)](http://www.twitter.com/)&nbsp;[![Facebook](http://i.imgur.com/fep1WsG.png)](https://www.facebook.com/Girl-Up-Uniandes-804056183317181)&nbsp;[<img src="https://image.flaticon.com/icons/png/512/87/87390.png" height="20">](https://www.instagram.com/girlupuniandes/)&nbsp;&nbsp;[![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
 
-#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
+##### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
 <h2 name="contribuye-es">Contribuye a la página</h2> 
 
-[![Badge](https://github.com/ellerbrock/open-source-badges/blob/master/badges/open-source-v1/open-source.svg)](https://github.com/GirlUp-Uniandes)
+[![Badge](https://github.com/ellerbrock/open-source-badges/blob/master/badges/open-source-v1/open-source.svg)](https://github.com/GirlUp-Uniandes) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/graphs/contributors)
+
 
 <p>Si quieres contribuir a nuestra página, a alguno de nuestros proyectos o ayudarnos a mejorar, ¡no dudes en hacer un <a href="https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls">Pull Request</a>!</p> 
 <p>Si tienes alguna duda, escríbenos un correo a:</p>
@@ -77,8 +81,9 @@
 </ul>
 
 ### Visítanos en nuestras redes sociales: [![Twitter](http://i.imgur.com/wWzX9uB.png)](http://www.twitter.com/)&nbsp;[![Facebook](http://i.imgur.com/fep1WsG.png)](https://www.facebook.com/Girl-Up-Uniandes-804056183317181)&nbsp;[<img src="https://image.flaticon.com/icons/png/512/87/87390.png" height="20">](https://www.instagram.com/girlupuniandes/)&nbsp;&nbsp;[![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
+### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
-#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
+
 
 
 <img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="200" />  

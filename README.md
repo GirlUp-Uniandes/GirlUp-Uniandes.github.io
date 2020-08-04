@@ -19,18 +19,15 @@
       Sobre Girl Up Uniandes
     </a>
     <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+    <a href=#run-es>
       Corre el proyecto localmente
     </a>
    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+    <a href=#contribuye-es>
       Contribuye a la página
     </a>
   </h4>
 </div>
-
-
-Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hacer un [Pull Request](https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls)! 
 
 <h2 name="girl-up-es"> Sobre Girl Up </h2>
 <img src="https://chscourier.com/wp-content/uploads/2013/03/jan-girl-up-org.jpg" align="right" height="128" width="128"/>  
@@ -47,6 +44,30 @@ Si quieres contribuir a nuestra página o ayudarnos a mejorar, ¡no dudes en hac
 
 #### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
+<h2 name="run-es">Corre el proyecto localmente</h2>
+<ol>
+  <li>Después de clonar el proyecto, entra a la carpeta <code>girl-up-uniandes.</code></li>
+  <li>Si aún no tienes npm, <a href="https://www.npmjs.com/get-npm">instálalo</a>. Te recomendamos: <code> npm install npm@latest -g></code></li>
+  <li>Corre <code>npm install</code> para instalar todas las librerías del proyecto. La primera vez que lo hagas, puede demorarse un poco.</li>
+  <li>Corre <code>npm start</code> para ver el proyecto localmente.</li>
+  <li>¡Ya estás listo! Ve a <a href="http://localhost:3000/">http://localhost:3000/</a> para ver la página y hacer tus cambios. ¡Usa tu editor de texto/código favorito!</li>
+</ol>
+
+#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
+
+<h2 name="contribuye-es">Contribuye a la página</h2>
+
+<p>Si quieres contribuir a nuestra página, a alguno de nuestros proyectos o ayudarnos a mejorar, ¡no dudes en hacer un <a href="https://github.com/GirlUp-Uniandes/GirlUp-Uniandes.github.io/pulls">Pull Request</a>!</p> 
+<p>Si tienes alguna duda, escríbenos un correo a:</p>
+<ul>
+  <li>girlupuniandes@uniandes.edu.co</li>
+  <li>mc.londono@uniandes.edu.co</li>
+  <li>ms.alvarezl@uniandes.edu.co</li>
+  <li>camilalonart@gmail.com</li>
+  <li>maria.sofia.alvarez.lopez@gmail.com</li>
+</ul>
+
+#### Hecho con :heart: &nbsp; por [@camilalonart](https://github.com/camilalonart) y [@sofiaalvarezlopez](https://github.com/sofiaalvarezlopez)
 
 
 <img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="120" width="120"/>  

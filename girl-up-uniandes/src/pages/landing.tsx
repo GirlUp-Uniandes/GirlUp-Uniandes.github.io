@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Button from '@material-ui/core/Button';
 import Carousel from 'react-bootstrap/Carousel'
 import Banner1 from '../images/Banner1.jpeg';
-import GirlUp from "./girlupuniandes"
+import Girlafesto from "../components/girlafesto"
 
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
@@ -26,7 +26,7 @@ function ControlledCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <GirlUp></GirlUp>
+      <Girlafesto></Girlafesto>
       </div>
     );
   }

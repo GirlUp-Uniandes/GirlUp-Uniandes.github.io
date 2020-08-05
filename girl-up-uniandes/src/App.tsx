@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 import Blog from './pages/blog';
@@ -23,21 +23,21 @@ const theme = createMuiTheme({
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Switch>
           <ThemeProvider theme={theme}>
-            <Route path='/' exact component={Landing} />
-            <Route path='/causas' exact component={Causes} />
-            <Route path='/blog' exact component={Blog} />
-            <Route path='/nosotras' exact component={Whoweare} />
-            <Route path='/mentoria' exact component={Mentorship} />
-            <Route path='/girlup' exact component={Girlupuniandes} />
-            <Route path='/eventos' exact component={Events} />
+            <Route exact path='/' component={Landing} />
+            <Route exact path='/causas' component={Causes} />
+            <Route exact path='/blog' component={Blog} />
+            <Route exact path='/nosotras' component={Whoweare} />
+            <Route exact path='/mentoria' component={Mentorship} />
+            <Route exact path='/girlup' component={Girlupuniandes} />
+            <Route exact path='/eventos' component={Events} />
             </ThemeProvider>
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 

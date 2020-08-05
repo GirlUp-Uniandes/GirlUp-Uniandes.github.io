@@ -27,13 +27,13 @@ function App() {
         <div>
           <Switch>
           <ThemeProvider theme={theme}>
-            <Route path="/"  exact component={Landing} />
-            <Route path="/causas" component={Causes} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/nosotras" component={Whoweare} />
-            <Route path="/mentoria" component={Mentorship} />
-            <Route path="/girlup" component={Girlupuniandes} />
-            <Route path="/eventos" component={Events} />
+            <Route path={process.env.PUBLIC_URL + '/'} exact component={Landing} />
+            <Route path={process.env.PUBLIC_URL + "/causas"} component={Causes} />
+            <Route path={process.env.PUBLIC_URL + "/blog"} component={Blog} />
+            <Route path={process.env.PUBLIC_URL + "/nosotras"} component={Whoweare} />
+            <Route path={process.env.PUBLIC_URL + "/mentoria"} component={Mentorship} />
+            <Route path={process.env.PUBLIC_URL + "/girlup"} component={Girlupuniandes} />
+            <Route path={process.env.PUBLIC_URL + "/eventos"} component={Events} />
             </ThemeProvider>
           </Switch>
         </div>

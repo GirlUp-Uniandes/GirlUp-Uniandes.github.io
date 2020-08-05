@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 import Blog from './pages/blog';
 import Causes from './pages/causes';
@@ -11,6 +12,13 @@ import Mentorship from './pages/mentorship';
 import Whoweare from './pages/whoweare';
 import Landing from './pages/landing';
 
+const theme = createMuiTheme({
+  palette: {
+    secondary: {
+      main: "#DA4A9A",
+    },
+  },
+});
 
 function App() {
   return (
@@ -18,14 +26,16 @@ function App() {
     <BrowserRouter>
         <div>
           <Switch>
-            <Route path="/"  component={Landing} />
-            <Route path="/causas" exact component={Causes} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/nosotras" component={Whoweare} />
-            <Route path="/mentoria" component={Mentorship} />
-            <Route path="/girlup" component={Girlupuniandes} />
-            <Route path="/eventos" component={Events} />
-            </Switch>
+          <ThemeProvider theme={theme}>
+            <Route path="/"  exact component={Landing} />
+            <Route path="/causas"  exact component={Causes} />
+            <Route path="/blog" exact component={Blog} />
+            <Route path="/nosotras" exact component={Whoweare} />
+            <Route path="/mentoria" exact component={Mentorship} />
+            <Route path="/girlup" exact component={Girlupuniandes} />
+            <Route path="/eventos" exact component={Events} />
+            </ThemeProvider>
+          </Switch>
         </div>
       </BrowserRouter>
   );

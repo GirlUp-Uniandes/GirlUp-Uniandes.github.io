@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import{Nav, Navbar} from 'react-bootstrap'
-import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,13 +20,12 @@ export default function ButtonAppBar() {
   return (
     <div className={classes.root}>
       <Navbar bg="primary" variant="dark">
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Navbar.Brand href="#home">Inicio</Navbar.Brand>
             <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
-            </Nav>
-            
+            </Nav>    
         </Navbar>
     </div>
   );

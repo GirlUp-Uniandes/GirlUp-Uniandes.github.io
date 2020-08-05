@@ -28,12 +28,12 @@ function App() {
           <Switch>
           <ThemeProvider theme={theme}>
             <Route path="/"  exact component={Landing} />
-            <Route path="/causas"  exact component={Causes} />
-            <Route path="/blog" exact component={Blog} />
-            <Route path="/nosotras" exact component={Whoweare} />
-            <Route path="/mentoria" exact component={Mentorship} />
-            <Route path="/girlup" exact component={Girlupuniandes} />
-            <Route path="/eventos" exact component={Events} />
+            <Route path="/causas" component={Causes} />
+            <Route path="/blog" component={Blog} />
+            <Route path="/nosotras" component={Whoweare} />
+            <Route path="/mentoria" component={Mentorship} />
+            <Route path="/girlup" component={Girlupuniandes} />
+            <Route path="/eventos" component={Events} />
             </ThemeProvider>
           </Switch>
         </div>

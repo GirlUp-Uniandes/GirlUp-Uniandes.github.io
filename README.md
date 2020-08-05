@@ -1,4 +1,4 @@
-<img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="200" />  
+<img src="girl-up-uniandes/src/images/LogoGirlUp.jpeg" align="right" height="200" />  
 
 # ¡Bienvenidos a [Girl Up Uniandes](https://girlup-uniandes.github.io/)! [![Badge](https://github.com/ellerbrock/open-source-badges/blob/master/badges/open-source-v1/open-source.svg)](https://github.com/GirlUp-Uniandes)
 ### ¿Quieres participar? [¡Inscríbete aquí!](https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u)
@@ -47,7 +47,7 @@
  <h2 name="girl-up-uniandes-es"> Sobre Girl Up Uniandes</h2>
  <p align="justify">Con <a href="https://girlup-uniandes.github.io//">Girl Up Uniandes</a> queremos generar un impacto en nuestra comunidad uniandina, en nuestra ciudad, Bogotá y en nuestro país, Colombia. Descubre nuestro programa de mentorías para niñas de colegio, estudiantes de primer semestre y estudiantes a punto de graduarse de la U. Ayúdanos a promover la educación, porque educar a una niña, es educar a todo un país. ¡Apóyanos a llevar STEAM (ciencia, tecnología, ingeniería, arte y matemáticas) a todos los rincones de nuestro hermoso país y del mundo! </p>
  <p align="justify">¿Quieres apoyarnos? ¿Tienes grandes ideas para compartir? ¡Compártenos tu historia! <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u">Inscríbete aquí</a></p>
-<img src="girl-up-uniandes/images/InduccionGirlUp.jpg" />
+<img src="girl-up-uniandes/src/images/InduccionGirlUp.jpg" />
 
 ### Visítanos en nuestras redes sociales: [![Twitter](http://i.imgur.com/wWzX9uB.png)](http://www.twitter.com/)&nbsp;[![Facebook](http://i.imgur.com/fep1WsG.png)](https://www.facebook.com/Girl-Up-Uniandes-804056183317181)&nbsp;[<img src="https://image.flaticon.com/icons/png/512/87/87390.png" height="20">](https://www.instagram.com/girlupuniandes/)&nbsp;&nbsp;[![Github](http://i.imgur.com/9I6NRUm.png)](https://github.com/GirlUp-Uniandes/)
 
@@ -93,7 +93,7 @@
 
 ***
 
-<img src="girl-up-uniandes/images/LogoGirlUp.jpeg" align="right" height="200" />  
+<img src="girl-up-uniandes/src/images/LogoGirlUp.jpeg" align="right" height="200" />  
 
 # Welcome to Girl Up Uniandes!
 

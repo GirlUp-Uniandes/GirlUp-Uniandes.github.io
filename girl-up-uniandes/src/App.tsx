@@ -23,17 +23,17 @@ const theme = createMuiTheme({
 function App() {
   return (
 
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
         <div>
           <Switch>
           <ThemeProvider theme={theme}>
             <Route path='/' exact component={Landing} />
-            <Route path="/causas" exact component={Causes} />
-            <Route path="/blog" exact component={Blog} />
-            <Route path="/nosotras" exact component={Whoweare} />
-            <Route path="/mentoria" exact component={Mentorship} />
-            <Route path="/girlup" exact component={Girlupuniandes} />
-            <Route path="/eventos" exact component={Events} />
+            <Route path='/causas' exact component={Causes} />
+            <Route path='/blog' exact component={Blog} />
+            <Route path='/nosotras' exact component={Whoweare} />
+            <Route path='/mentoria' exact component={Mentorship} />
+            <Route path='/girlup' exact component={Girlupuniandes} />
+            <Route path='/eventos' exact component={Events} />
             </ThemeProvider>
           </Switch>
         </div>

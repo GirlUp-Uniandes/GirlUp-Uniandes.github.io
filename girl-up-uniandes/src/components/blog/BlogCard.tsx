@@ -8,7 +8,6 @@ import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
@@ -16,7 +15,7 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 445,
   },
   media: {
     height: 140,
@@ -55,13 +54,13 @@ const useStyles = makeStyles((theme) => ({
       easing: theme.transitions.easing.easeInOut
     }),
     cursor: "pointer",
-    color: theme.palette.secondary.main,
+    color: theme.palette.primary.main,
     "&:hover": {
       color: theme.palette.primary.dark
     }
   },
   avatar: {
-    backgroundColor: red[500],
+    backgroundColor: "#ED0095",
   },
 }));
 
@@ -83,7 +82,7 @@ export default function Blog({id, writer, email, title, image, description, date
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
-            R
+            {writer.charAt(0)}
           </Avatar>
         }
         action={
@@ -108,7 +107,7 @@ export default function Blog({id, writer, email, title, image, description, date
           </Link>
         </Typography>
         <Typography variant="body2" color="textSecondary" component="h6">
-          {writer}
+          Escrito por: {writer}
         </Typography>
         <Typography variant="body2" color="textSecondary" component="h6">
           {email}

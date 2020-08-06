@@ -14,6 +14,9 @@ import Landing from './pages/landing';
 
 const theme = createMuiTheme({
   palette: {
+    primary: { 
+      main: "#4794C6"
+     },
     secondary: {
       main: "#DA4A9A",
     },

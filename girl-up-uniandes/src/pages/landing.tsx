@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Button from '@material-ui/core/Button';
 import Carousel from 'react-bootstrap/Carousel'
 import Banner1 from '../images/Banner1.jpeg';
 import Girlafesto from "../components/girlafesto"

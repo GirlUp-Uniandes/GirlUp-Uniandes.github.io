@@ -14,11 +14,21 @@ import Landing from './pages/landing';
 
 const theme = createMuiTheme({
   palette: {
-    primary: { 
-      main: "#4794C6"
-     },
+    primary: {
+      //rosado oscuro
+      main: "#ED0095",
+    },
     secondary: {
-      main: "#DA4A9A",
+      //azul
+      main: "#12B7EF",
+    },
+    warning: {
+      //morado
+      main: "#5B3367",
+    },
+    success: {
+      //rosado claro
+      main: "#FAC8C8",
     },
   },
 });

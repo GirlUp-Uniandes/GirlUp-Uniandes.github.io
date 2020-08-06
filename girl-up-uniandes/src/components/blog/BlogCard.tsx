@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
       cursor: "pointer",
       color: theme.palette.common.black,
       "&:hover": {
-        color: theme.palette.secondary.dark
+        color: theme.palette.primary.dark
       },
       "&:active": {
         color: theme.palette.primary.dark
@@ -54,9 +54,9 @@ const useStyles = makeStyles((theme) => ({
       easing: theme.transitions.easing.easeInOut
     }),
     cursor: "pointer",
-    color: theme.palette.primary.main,
+    color: theme.palette.secondary.main,
     "&:hover": {
-      color: theme.palette.primary.dark
+      color: theme.palette.secondary.dark
     }
   },
   avatar: {

@@ -4,6 +4,7 @@ import {Grid, Box, isWidthUp, withWidth} from '@material-ui/core';
 import posts from '../posts/posts.json'
 import BlogCard from '../components/blog/BlogCard'
 import classNames from 'classnames';
+import NavBar from '../components/navbar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -68,17 +69,22 @@ function Blog({width} : Props)
 {
 const classes = useStyles(); 
 return (
-  <Box
-      display="flex"
-      justifyContent="center"
-      className={classNames(classes.wrapper, "lg-p-top")}
-    >
-      <div className={classes.blogContentWrapper}>
-        <Grid container spacing={3}>
-          {getVerticalBlogPosts(width)}
-        </Grid>
-      </div>
-    </Box>);
+  <div>
+    <NavBar/>
+    <Box style = {{marginTop:20}}
+        display="flex"
+        justifyContent="center"
+        className={classNames(classes.wrapper, "lg-p-top")}
+      >
+        
+        <div className={classes.blogContentWrapper}>
+          <Grid container spacing={3}>
+            {getVerticalBlogPosts(width)}
+          </Grid>
+        </div>
+      </Box>
+    </div>
+    );
 }
 
 export default withWidth()(Blog);

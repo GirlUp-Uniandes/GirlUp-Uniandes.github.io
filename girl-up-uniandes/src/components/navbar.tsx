@@ -1,32 +1,25 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import{Nav, Navbar} from 'react-bootstrap'
+import React, { useState } from 'react'
+import "../css/styles.css";
+import {Navbar,Nav} from 'react-bootstrap'
+import Logotipo from '../images/LogoFondoRosado.png';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
 
-export default function ButtonAppBar() {
-  const classes = useStyles();
-
-  return (
-    <div className={classes.root}>
-      <Navbar bg="primary" variant="dark">
-            <Navbar.Brand href="#home">Inicio</Navbar.Brand>
+export default function NavBar(){
+  return(
+    <Navbar sticky="top" variant="dark" className="navBar" >
+        <Navbar.Brand href="/">
+            <img src={Logotipo} width="40" alt="GirlUp"/>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            </Nav>    
-        </Navbar>
-    </div>
+                <Nav.Link href="/">Inicio</Nav.Link>
+                <Nav.Link href="/#/blog">Blog</Nav.Link>
+                <Nav.Link href="/#/eventos">Eventos</Nav.Link>
+                <Nav.Link href="/#/causas">Causas</Nav.Link>
+                <Nav.Link href="/#/mentoria"> Mentorias</Nav.Link>
+            </Nav>
+        </Navbar.Collapse>
+    </Navbar>
   );
 }

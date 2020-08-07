@@ -209,6 +209,7 @@ export default function Landing() {
         <NavBar/>
         <CarouselLanding />
         <QuienesSomos/>
+        <Causas/>
       </div>
     );
   }

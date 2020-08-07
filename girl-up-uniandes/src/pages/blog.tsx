@@ -71,7 +71,7 @@ const classes = useStyles();
 return (
   <div>
     <NavBar/>
-    <Box style = {{marginTop:20}}
+    <Box style = {{marginTop:100}}
         display="flex"
         justifyContent="center"
         className={classNames(classes.wrapper, "lg-p-top")}

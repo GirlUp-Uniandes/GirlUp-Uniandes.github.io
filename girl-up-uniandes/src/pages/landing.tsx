@@ -13,7 +13,7 @@ import Girlafesto from "../components/girlafesto"
 
   function CarouselLanding() {
     return (
-        <Carousel style={{flexGrow: 1, marginTop: 30, marginBottom: 30}}>
+        <Carousel style={{flexGrow: 1, marginTop: 100, marginBottom: 30}}>
           <Carousel.Item>
             <img
               className='d-block w-100'
@@ -209,7 +209,6 @@ export default function Landing() {
         <NavBar/>
         <CarouselLanding />
         <QuienesSomos/>
-        <Causas/>        
       </div>
     );
   }

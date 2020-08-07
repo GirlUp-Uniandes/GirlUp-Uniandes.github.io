@@ -11,6 +11,7 @@ import Girlupuniandes from './pages/girlupuniandes';
 import Mentorship from './pages/mentorship';
 import Whoweare from './pages/whoweare';
 import Landing from './pages/landing';
+import ContactUs from './pages/contactus'
 
 const theme = createMuiTheme({
   palette: {
@@ -42,6 +43,7 @@ function App() {
           <ThemeProvider theme={theme}>
             <Route exact path='/' component={Landing} />
             <Route exact path='/causas' component={Causes} />
+            <Route exact path='/contactanos' component={ContactUs} />
             <Route exact path='/blog' component={Blog} />
             <Route exact path='/nosotras' component={Whoweare} />
             <Route exact path='/mentoria' component={Mentorship} />

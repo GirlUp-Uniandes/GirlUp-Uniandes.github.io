@@ -2,13 +2,9 @@ import React from 'react'
 import "../css/styles.css";
 import Carousel from "react-bootstrap/Carousel";
 import Banner1 from '../images/Banner1.jpeg';
-import Causa1 from '../images/Causa1.png';
-import Causa2 from '../images/Causa2.png';
-import Causa3 from '../images/Causa3.png';
-import Causa4 from '../images/Causa4.png';
 import NavBar from '../components/navbar';
 import CausasLocales from '../components/localcauses'
-import {Grid,Typography,Paper,Button} from '@material-ui/core';
+import {Typography} from '@material-ui/core';
 import Girlafesto from "../components/girlafesto"
 
   function CarouselLanding() {
@@ -59,7 +55,7 @@ function QuienesSomos(){
   </div>);
 
 }
-
+/*
 function Causas(){
   return(
     <div style={{flexGrow: 1, marginTop: 30, marginBottom: 30}}>
@@ -203,6 +199,7 @@ function Causas(){
     </div>
   );
 }
+*/
 export default function Landing() {
     return (
       <div >

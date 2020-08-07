@@ -11,11 +11,9 @@ import NavBar from '../components/navbar';
 import {Grid,Typography,Paper,Button} from '@material-ui/core';
 import Girlafesto from "../components/girlafesto"
 
-
-
   function CarouselLanding() {
     return (
-        <Carousel>
+        <Carousel style={{flexGrow: 1, marginTop: 30, marginBottom: 30}}>
           <Carousel.Item>
             <img
               className='d-block w-100'
@@ -51,6 +49,16 @@ import Girlafesto from "../components/girlafesto"
         </Carousel>
     );
   }
+function QuienesSomos(){
+  return(
+  <div style={{flexGrow: 1, marginTop: 30, marginBottom: 30}}>
+    <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#12B7EF", marginTop: 30, marginBottom: 30, fontWeight: "bold"}} >
+          ¿Quienes Somos?
+          <Girlafesto/>
+      </Typography>
+  </div>);
+
+}
 
 function Causas(){
   return(
@@ -200,7 +208,7 @@ export default function Landing() {
       <div >
         <NavBar/>
         <CarouselLanding />
-        <Girlafesto/>
+        <QuienesSomos/>
         <Causas/>
         
       </div>

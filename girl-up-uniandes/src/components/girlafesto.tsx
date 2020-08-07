@@ -38,8 +38,8 @@ export default function Girlafesto() {
         <Typography  variant="h5" className={classes.text} >Y Fuerte.</Typography>
         <Typography  variant="h5" className={classes.text}>Yo sigo. Yo lidero.</Typography>
         <Typography  variant="h5" className={classes.text}>Yo aprendo. Yo enseño.</Typography>
-        <Typography  variant="h5" className={classes.text}>Cambio mi ropa</Typography>
-        <Typography  variant="h5" className={classes.text}>Cambio mi pelo</Typography>
+        <Typography  variant="h5" className={classes.text}>Cambio mi ropa.</Typography>
+        <Typography  variant="h5" className={classes.text}>Cambio mi pelo.</Typography>
         <Typography  variant="h5" className={classes.text}>Cambio mi música.</Typography>
         <Typography  variant="h5" className={classes.text}>Cambio mi mente.</Typography>
         <Typography  variant="h5" className={classes.text}>Tengo una voz que habla</Typography>
@@ -56,7 +56,7 @@ export default function Girlafesto() {
         <Typography  variant="h5" className={classes.text}>Y juntas, nuestras voces</Typography>
         <Typography  variant="h5" className={classes.text}>cambiarán el mundo.</Typography>
         <Typography  variant="h5" className={classes.text}>Tú ves una chica</Typography>
-        <Typography  variant="h5" className={classes.text}>Nosotros vemos el futuro.</Typography>
+        <Typography  variant="h5" className={classes.text}>Nosotras vemos el futuro.</Typography>
       </TextLoop>
       </ThemeProvider>
       </Grid>

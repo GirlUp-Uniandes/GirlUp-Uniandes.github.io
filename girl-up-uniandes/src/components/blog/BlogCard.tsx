@@ -71,7 +71,7 @@ interface Props {
     title:string;
     image:string;
     description:string;
-    date:string
+    date:string;
 }
 
 export default function Blog({id, writer, email, title, image, description, date}:Props) {

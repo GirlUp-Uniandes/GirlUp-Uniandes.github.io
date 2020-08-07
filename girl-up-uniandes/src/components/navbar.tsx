@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton:{
     backgroundColor: theme.palette.primary.main,
-    outline: 'none',
+    outline: 'none !important',
     '&:hover': {
       outline: 'none',
     },
@@ -41,7 +41,13 @@ const useStyles = makeStyles((theme) => ({
   },
   noDecoration: {
     textDecoration: "none !important",
-    outline: "none",
+    outline: "none !important",
+    '&:hover': {
+      outline: 'none',
+    },
+    '&:active': {
+      outline: 'none',
+    },
   },
 }));
 

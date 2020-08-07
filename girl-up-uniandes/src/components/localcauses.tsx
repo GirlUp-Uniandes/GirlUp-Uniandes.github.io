@@ -1,74 +1,80 @@
-import React from 'react'
-import "../css/styles.css";
-import Carousel from "react-bootstrap/Carousel";
-import Banner1 from '../images/Banner1.jpeg';
-import Causa1 from '../images/Causa1.png';
-import Causa2 from '../images/Causa2.png';
-import Causa3 from '../images/Causa3.png';
-import Causa4 from '../images/Causa4.png';
-import NavBar from '../components/navbar';
-import CausasLocales from '../components/localcauses'
-import {Grid,Typography,Paper,Button} from '@material-ui/core';
-import Girlafesto from "../components/girlafesto"
+import React from "react";
+import classNames from "classnames";
+import {Grid, Typography, isWidthUp, withWidth, Paper, makeStyles, Button} from "@material-ui/core";
+import Causa1 from '../images/Causa1.png'
+import Causa2 from '../images/Causa2.png'
+import Causa3 from '../images/Causa3.png'
+import Causa4 from '../images/Causa4.png'
 
-  function CarouselLanding() {
-    return (
-        <Carousel style={{flexGrow: 1, marginTop: 100, marginBottom: 30}}>
-          <Carousel.Item>
-            <img
-              className='d-block w-100'
-              src={Banner1}
-              alt='First slide'
-            />
-            <Carousel.Caption className='position-absolute'>
-              <div className='af-position-lg af-bg-dark-transparent py-3'>
-                <h3>El titulo del mensaje</h3>
-                
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className='d-block w-100'
-              src={Banner1}
-              alt='Third slide'
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className='d-block w-100'
-              src={Banner1}
-              alt='Third slide'
-            />
-            <Carousel.Caption className='position-absolute'>
-              <div className='af-position-lg af-bg-dark-transparent py-3'>
-                    <h3>El titulo del mensaje</h3>
-              </div>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-    );
+
+const useStyles = makeStyles((theme) => ({
+    containerFix: {
+    [theme.breakpoints.down("md")]: {
+      paddingLeft: theme.spacing(6),
+      paddingRight: theme.spacing(6)
+    },
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: theme.spacing(4),
+      paddingRight: theme.spacing(4)
+    },
+    [theme.breakpoints.down("xs")]: {
+      paddingLeft: theme.spacing(2),
+      paddingRight: theme.spacing(2)
+    },
+    overflow: "hidden",
+    paddingTop: theme.spacing(1),
+    paddingBottom: theme.spacing(1)
+  },
+  cardWrapper: {
+    [theme.breakpoints.down("xs")]: {
+      marginLeft: "auto",
+      marginRight: "auto",
+      maxWidth: 340
+    }
+  },
+  cardWrapperHighlighted: {
+    [theme.breakpoints.down("xs")]: {
+      marginLeft: "auto",
+      marginRight: "auto",
+      maxWidth: 360
+    }
   }
-function QuienesSomos(){
-  return(
-  <div style={{flexGrow: 1, marginTop: 30, marginBottom: 30}}>
-    <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#12B7EF", marginTop: 30, marginBottom: 30, fontWeight: "bold"}} >
-          ¿Quienes Somos?
-          <Girlafesto/>
-      </Typography>
-  </div>);
+}));
 
+function calculateSpacing(width: any) {
+  if (isWidthUp("lg", width)) {
+    return 5;
+  }
+  if (isWidthUp("md", width)) {
+    return 4;
+  }
+  if (isWidthUp("sm", width)) {
+    return 3;
+  }
+  return 2;
 }
 
-function Causas(){
-  return(
-    <div style={{flexGrow: 1, marginTop: 30, marginBottom: 30}}>
+function CausasLocales(width: any) {
+    const classes = useStyles(); 
+    return (
+    <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
       <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#ED0095", marginTop: 30, marginBottom: 30, fontWeight: "bold"}} >
           Proyectos Locales
       </Typography>
-      <Grid container direction="row" justify="center" alignItems="center" >
-        <Grid item xs={3} lg={3} container >
-          <Paper  style={{padding:25,margin: 'auto'}}>
+      <div className={classNames("container-fluid", classes.containerFix)}>
+        <Grid
+          container
+          spacing={calculateSpacing(width)}
+        >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            lg={3}
+            className={classes.cardWrapper}
+            data-aos="zoom-in-up"
+          >
+            <Paper  style={{padding:25,margin: 'auto'}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa1} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
@@ -99,9 +105,17 @@ function Causas(){
               </Grid>
             </Grid>
           </Paper>
-        </Grid>
-        <Grid item xs={3} lg={3} container >
-          <Paper  style={{padding:25,margin: 'auto'}}>
+          </Grid>
+          <Grid
+            item
+            className={classes.cardWrapperHighlighted}
+            xs={12}
+            sm={6}
+            lg={3}
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+          >
+            <Paper  style={{padding:25,margin: 'auto'}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa2} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
@@ -132,9 +146,17 @@ function Causas(){
               </Grid>
             </Grid>
           </Paper>
-        </Grid>
-        <Grid item xs={3} lg={3} container >
-          <Paper  style={{padding:25,margin: 'auto'}}>
+          </Grid>
+          <Grid
+            item
+            className={classes.cardWrapper}
+            xs={12}
+            sm={6}
+            lg={3}
+            data-aos="zoom-in-up"
+            data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
+          >
+            <Paper  style={{padding:25,margin: 'auto'}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa3} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
@@ -165,9 +187,17 @@ function Causas(){
               </Grid>
             </Grid>
           </Paper>
-        </Grid>
-        <Grid item xs={3} lg={3} container >
-          <Paper  style={{padding:25,margin: 'auto'}}>
+          </Grid>
+          <Grid
+            item
+            className={classes.cardWrapper}
+            xs={12}
+            sm={6}
+            lg={3}
+            data-aos="zoom-in-up"
+            data-aos-delay={isWidthUp("md", width) ? "600" : "200"}
+          >
+            <Paper  style={{padding:25,margin: 'auto'}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa4} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
@@ -198,19 +228,11 @@ function Causas(){
               </Grid>
             </Grid>
           </Paper>
+          </Grid>
         </Grid>
-      </Grid>
+      </div>
     </div>
   );
 }
-export default function Landing() {
-    return (
-      <div >
-        <NavBar/>
-        <CarouselLanding />
-        <QuienesSomos/>
-        <CausasLocales/>
-      </div>
-    );
-  }
-  
+
+export default (withWidth()(CausasLocales));

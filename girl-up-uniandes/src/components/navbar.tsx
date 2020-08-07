@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 import {AppBar, Toolbar, Button, Hidden, IconButton, makeStyles} from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
-import ImportContactsIcon from '@material-ui/icons/ImportContacts';
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 import PeopleIcon from '@material-ui/icons/People';
 import SchoolIcon from '@material-ui/icons/School';
-import DevicesIcon from '@material-ui/icons/Devices';
-
+import PhoneIcon from '@material-ui/icons/Phone';
+import CreateIcon from '@material-ui/icons/Create';
 import NavigationDrawer from "../components/navdrawer";
 import Logotipo from '../images/LogoFondoRosado.png';
 
@@ -40,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
 
 function NavBar() {
   const classes = useStyles(); 
-  const [selectedTab, setSelectedTab] = useState("");
+  const [selectedTab] = useState("");
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
   
   const handleMobileDrawerOpen = useCallback(() => {
@@ -65,7 +64,7 @@ function NavBar() {
     {
       link: "blog",
       name: "Blog",
-      icon: <ImportContactsIcon className="text-white" />
+      icon: <CreateIcon className="text-white" />
     },
     {
       link: "causas",
@@ -85,7 +84,7 @@ function NavBar() {
     {
       link: "contactanos",
       name: "Contáctanos",
-      icon: <SchoolIcon className="text-white" />
+      icon: <PhoneIcon className="text-white" />
     }
   ];
   return (

@@ -1,13 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "../css/styles.css";
 import UnderConstruction from '../images/UnderConstruction.gif';
 import Logotipo2 from '../images/Logotipo2.png';
 import NavBar from '../components/navbar';
 
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container,Grid,Typography,Paper,ButtonBase,Button} from '@material-ui/core';
+import {Grid,Typography} from '@material-ui/core';
 
 function EnConstruccion(){
     return(

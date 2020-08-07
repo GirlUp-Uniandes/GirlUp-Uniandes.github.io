@@ -25,5 +25,32 @@
         "image":"/images/GirlUpSummit.jpg",
         "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
         "date":"Agosto 5, 2020"
-    }  
+    } ,
+    {
+        "id":4,
+        "writer":"Sofia Alvarez",
+        "email":"ms.alvarezl@uniandes.edu.co",
+        "title":"Mi experiencia en el Girl Up Leadership Summit",
+        "image":"/images/Banner1.jpeg",
+        "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+        "date":"Agosto 5, 2020"
+    },
+    {
+        "id":5,
+        "writer":"Sofia Alvarez",
+        "email":"ms.alvarezl@uniandes.edu.co",
+        "title":"Mi experiencia en el Girl Up Leadership Summit",
+        "image":"/images/ConFernanda.jpg",
+        "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+        "date":"Agosto 5, 2020"
+    },
+    {
+        "id":6,
+        "writer":"Sofia Alvarez",
+        "email":"ms.alvarezl@uniandes.edu.co",
+        "title":"Mi experiencia en el Girl Up Leadership Summit",
+        "image":"/images/InduccionGirlUp.jpg",
+        "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
+        "date":"Agosto 5, 2020"
+    }       
 ]

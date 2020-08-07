@@ -28,12 +28,20 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton:{
     backgroundColor: theme.palette.primary.main,
+    outline: 'none',
+    '&:hover': {
+      outline: 'none',
+    },
+    '&:active': {
+      outline: 'none',
+    },
   },
   brandText: {
     fontWeight: 400
   },
   noDecoration: {
-    textDecoration: "none !important"
+    textDecoration: "none !important",
+    outline: "none",
   },
 }));
 
@@ -118,6 +126,7 @@ function NavBar() {
                       <Button
                         size="large"
                         classes={{ text: classes.menuButtonText }}
+                        className={classes.menuButton}
                       >
                         {element.name}
                       </Button>

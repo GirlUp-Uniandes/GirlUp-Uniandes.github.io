@@ -1,18 +1,27 @@
 import React from 'react'
 import "../css/styles.css";
+import classNames from "classnames";
 import UnderConstruction from '../images/UnderConstruction.gif';
 import Logotipo2 from '../images/Logotipo2.png';
 import NavBar from '../components/navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Grid,Typography} from '@material-ui/core';
+import {Grid,Typography, makeStyles, isWidthUp, withWidth} from '@material-ui/core';
 
-function EnConstruccion(){
+const useStyles = makeStyles((theme) => ({
+    containerFix: {
+  }
+}));
+
+function EnConstruccion(width:any){
+    const classes = useStyles(); 
     return(
-        <Grid container direction="column" justify="center" alignItems="center">    
-            
+        <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className={classNames("container-fluid", classes.containerFix)}>
+        <Grid container direction="column" justify="center" alignItems="center" style={{position:'absolute'}}
+>     
             <Grid item>
-                <img style={{marginTop:30}} src={Logotipo2} width="300" alt="GirlUp"/>
+                <img style={{marginTop:90}} src={Logotipo2} width="300" alt="GirlUp"/>
             </Grid>
             <Grid item>
                 <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#ED0095",  fontWeight: "bold"}}>
@@ -20,7 +29,7 @@ function EnConstruccion(){
                 </Typography>
             </Grid>
             <Grid item>
-                <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2, marginBottom: 2}}>
+                <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2}}>
                     Muy pronto podrás saber más de mentoría...
                 </Typography>
             </Grid>
@@ -28,10 +37,12 @@ function EnConstruccion(){
                 <img src={UnderConstruction} width="650" alt="Muy Pronto" />
             </Grid>
         </Grid>
+        </div>
+        </div>
     );
 }
 
-export default function Landing() {
+function Landing() {
     return (
       <div>
         <NavBar/>
@@ -40,5 +51,7 @@ export default function Landing() {
     );
   }
   
+  export default (withWidth()(Landing));
+
 
 

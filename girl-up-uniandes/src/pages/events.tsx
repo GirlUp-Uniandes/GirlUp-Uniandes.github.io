@@ -1,24 +1,54 @@
 import React from 'react'
+import "../css/styles.css";
+import classNames from "classnames";
+import UnderConstruction from '../images/UnderConstruction.gif';
+import Logotipo2 from '../images/Logotipo2.png';
+import NavBar from '../components/navbar';
 
-import Button from '@material-ui/core/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Grid,Typography, makeStyles, isWidthUp, withWidth} from '@material-ui/core';
 
-export default function Events() {
-  
+const useStyles = makeStyles((theme) => ({
+    containerFix: {
+  }
+}));
+
+function EnConstruccion(width:any){
+    const classes = useStyles(); 
+    return(
+        <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
+        <div className={classNames("container-fluid", classes.containerFix)}>
+        <Grid container direction="column" justify="center" alignItems="center" style={{position:'absolute'}}
+>     
+            <Grid item>
+                <img style={{marginTop:90}} src={Logotipo2} width="300" alt="GirlUp"/>
+            </Grid>
+            <Grid item>
+                <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#ED0095",  fontWeight: "bold"}}>
+                    Página en construcción 
+                </Typography>
+            </Grid>
+            <Grid item>
+                <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2}}>
+                    Muy pronto podrás saber más de nuestros eventos...
+                </Typography>
+            </Grid>
+            <Grid item>
+                <img src={UnderConstruction} width="650" alt="Muy Pronto" />
+            </Grid>
+        </Grid>
+        </div>
+        </div>
+    );
+}
+
+function Events() {
     return (
-      <div >
-        <Button variant="contained">Default</Button>
-        <Button variant="contained" color="primary">
-          Primary
-        </Button>
-        <Button variant="contained" color="secondary">
-          Secondary
-        </Button>
-        <Button variant="contained" disabled>
-          Disabled
-        </Button>
-        <Button variant="contained" color="primary" href="#contained-buttons">
-          Link
-        </Button>
+      <div>
+        <NavBar/>
+        < EnConstruccion/>
       </div>
     );
   }
+  
+  export default (withWidth()(Events));

@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import Chip from '@material-ui/core/Chip';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
@@ -60,6 +61,9 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     backgroundColor: "#ED0095",
   },
+  pill: {
+    color: theme.palette.warning.main,
+  }
 }));
 
 interface Props {
@@ -70,10 +74,14 @@ interface Props {
     image:string;
     description:string;
     date:string;
+    tags:string[];
 }
 
-export default function Blog({id, writer, email, title, image, description, date}:Props) {
+export default function Blog({id, writer, email, title, image, description, date, tags}:Props) {
   const classes = useStyles(); 
+  const handleClick = () => {
+    window.location.href="/#causas";
+  };
 
   return (
     <Card className={classes.root}>
@@ -101,12 +109,29 @@ export default function Blog({id, writer, email, title, image, description, date
             <span className={classes.link}> leer más...</span>
           </Link>
         </Typography>
-        <Typography variant="body2" color="textSecondary" component="h6">
+        <div style={{alignItems: "center"}}>
+        { tags.map(tag => {
+          if(tag) {
+            return(
+              <Chip
+              variant="outlined" 
+              size="small" 
+              className={classes.pill} 
+              onClick={handleClick}
+              label={tag}
+              clickable
+              />
+            );
+          }
+          return("");
+        })}
+      <Typography variant="body2" color="textSecondary" component="h6">
           Escrito por: {writer}
         </Typography>
         <Typography variant="body2" color="textSecondary" component="h6">
           {email}
         </Typography>
+        </div>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="share">

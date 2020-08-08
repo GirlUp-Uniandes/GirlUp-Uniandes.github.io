@@ -6,7 +6,12 @@
         "title":"Mi experiencia en el Girl Up Leadership Summit",
         "image":"/images/CapitolHill.jpg",
         "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "date":"Agosto 5, 2020"
+        "date":"Agosto 5, 2020",
+        "tags": [
+            "Empoderamiento de la mujer",
+            "Girl Up Leadership Summit",
+            "Dream Big, Princess"
+        ]
     },
     {
         "id":2,
@@ -15,7 +20,12 @@
         "title":"Mi experiencia en el Girl Up Leadership Summit",
         "image":"/images/CapitolHill-1.jpg",
         "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "date":"Agosto 5, 2020"
+        "date":"Agosto 5, 2020",
+        "tags": [
+            "Empoderamiento de la mujer",
+            "Girl Up Leadership Summit",
+            "Dream Big, Princess"
+        ]
     },
     {
         "id":3,
@@ -24,7 +34,12 @@
         "title":"Mi experiencia en el Girl Up Leadership Summit",
         "image":"/images/GirlUpSummit.jpg",
         "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "date":"Agosto 5, 2020"
+        "date":"Agosto 5, 2020",
+        "tags": [
+            "Empoderamiento de la mujer",
+            "Girl Up Leadership Summit",
+            "Dream Big, Princess"
+        ]
     } ,
     {
         "id":4,
@@ -33,7 +48,12 @@
         "title":"Mi experiencia en el Girl Up Leadership Summit",
         "image":"/images/Banner1.jpeg",
         "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "date":"Agosto 5, 2020"
+        "date":"Agosto 5, 2020",
+        "tags": [
+            "Empoderamiento de la mujer",
+            "Girl Up Leadership Summit",
+            "Dream Big, Princess"
+        ]
     },
     {
         "id":5,
@@ -42,7 +62,12 @@
         "title":"Mi experiencia en el Girl Up Leadership Summit",
         "image":"/images/ConFernanda.jpg",
         "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "date":"Agosto 5, 2020"
+        "date":"Agosto 5, 2020",
+        "tags": [
+            "Empoderamiento de la mujer",
+            "Girl Up Leadership Summit",
+            "Dream Big, Princess"
+        ]
     },
     {
         "id":6,
@@ -51,6 +76,11 @@
         "title":"Mi experiencia en el Girl Up Leadership Summit",
         "image":"/images/InduccionGirlUp.jpg",
         "description":"This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "date":"Agosto 5, 2020"
+        "date":"Agosto 5, 2020",
+        "tags": [
+            "Empoderamiento de la mujer",
+            "Girl Up Leadership Summit",
+            "Dream Big, Princess"
+        ]
     }       
 ]

@@ -110,42 +110,6 @@ function AboutUs(width: any) {
           >
             <div  style={{padding:25,margin: 'auto'}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
-            <Link href={"https://unfoundation.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
-              <Grid item>
-                 <img alt="complex" src={UNFLogo} style={{ margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
-              </Grid>
-              <Grid item >
-                <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2, marginBottom: 2, fontWeight: "bold"}}>
-                  Fundación de Naciones Unidas
-                </Typography>
-              </Grid>
-              </Link>
-              <Grid item >
-                <Typography variant="body1" style={{textAlign: "justify", fontSize: '20px'}}>
-                  La Fundación de Naciones Unidas une el trabajo de la ONU con el de otras organizaciones 
-                  alrededor del mundo, encaminando el vigor y la experiencia de empresas y ONGs, para ayudar a las Naciones Unidas 
-                  a abordar cuestiones como el cambio climático, la salud global, la paz, la seguridad, el empoderamiento de la mujer, la erradicación 
-                  de la pobreza, y el acceso a la energía, entre otros. <br />
-                  Esto, apoyando programas de UNICEF, ACNUR (UNHCR), FPNU (UNFPA) y ONU Mujeres.  
-                  <Link href={"https://unfoundation.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
-                        <span className={classes.linkUNF}> Leer más...</span>
-                  </Link>
-                </Typography>
-              </Grid>
-            </Grid>
-          </div>
-          </Grid>
-          <Grid
-            item
-            className={classes.cardWrapperHighlighted}
-            xs={12}
-            sm={5}
-            lg={5}
-            data-aos="zoom-in-up"
-            data-aos-delay="200"
-          >
-            <div  style={{padding:25,margin: 'auto'}}>
-            <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
             <Link href={"https://girlup.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
               <Grid item>
                  <img alt="complex" src={GirlUpLoguito} style={{ width:'80%', margin: 'auto', display: 'block',maxWidth: '100%',maxHeight: '100%', paddingTop:'20%', paddingBottom:'11%'}}/>
@@ -165,6 +129,42 @@ function AboutUs(width: any) {
                   lidere grandes sueños que lleven a mejores comunidades y a países más fuertes.
                   <Link href={"https://girlup.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
                         <span className={classes.linkGirlUp}> Leer más...</span>
+                  </Link>
+                </Typography>
+              </Grid>
+            </Grid>
+            </div>
+          </Grid>
+          <Grid
+            item
+            className={classes.cardWrapperHighlighted}
+            xs={12}
+            sm={5}
+            lg={5}
+            data-aos="zoom-in-up"
+            data-aos-delay="200"
+          >
+            <div  style={{padding:25,margin: 'auto'}}>
+            <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
+            <Link href={"https://unfoundation.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
+              <Grid item>
+                 <img alt="complex" src={UNFLogo} style={{ margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
+              </Grid>
+              <Grid item >
+                <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2, marginBottom: 2, fontWeight: "bold"}}>
+                  Fundación de Naciones Unidas
+                </Typography>
+              </Grid>
+              </Link>
+              <Grid item >
+                <Typography variant="body1" style={{textAlign: "justify", fontSize: '20px'}}>
+                  La Fundación de Naciones Unidas une el trabajo de la ONU con el de otras organizaciones 
+                  alrededor del mundo, encaminando el vigor y la experiencia de empresas y ONGs, para ayudar a las Naciones Unidas 
+                  a abordar cuestiones como el cambio climático, la salud global, la paz, la seguridad, el empoderamiento de la mujer, la erradicación 
+                  de la pobreza, y el acceso a la energía, entre otros. <br />
+                  Esto, apoyando programas de UNICEF, ACNUR (UNHCR), FPNU (UNFPA) y ONU Mujeres.  
+                  <Link href={"https://unfoundation.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
+                        <span className={classes.linkUNF}> Leer más...</span>
                   </Link>
                 </Typography>
               </Grid>

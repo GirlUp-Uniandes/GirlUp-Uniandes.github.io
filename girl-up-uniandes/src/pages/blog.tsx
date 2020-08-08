@@ -48,7 +48,8 @@ function getVerticalBlogPosts(width: any) {
         <Box mb={3}>
         <BlogCard key={blogPost.id} email={blogPost.email} title={blogPost.title}
                   writer={blogPost.writer} image={blogPost.image} description={blogPost.description}
-                  date = {blogPost.date} id={blogPost.id} />
+                  date = {blogPost.date} id={blogPost.id} 
+                  tags={blogPost.tags} />
         </Box>
       </Grid>
     );

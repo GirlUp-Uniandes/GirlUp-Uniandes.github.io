@@ -125,8 +125,9 @@ function AboutUs(width: any) {
                   Girl Up es una iniciativa de la Fundación de Naciones Unidas que busca el empoderamiento de la mujer alrededor del mundo. 
                   En alianza con la ONU, luchamos por las niñas, construimos programas que las ayudan en su desarrollo, y creamos una 
                   comunidad que aboga por generar un cambio positivo en el mundo. <br/>
-                  Girl Up visualiza un mundo en el que cada mujer y cada niña pueda alcanzar su máximo potencial y  
-                  lidere grandes sueños que lleven a mejores comunidades y a países más fuertes.
+                  Girl Up visualiza un mundo en el que cada mujer y cada niña pueda alcanzar su máximo potencial,   
+                  liderando grandes sueños que lleven a mejores comunidades y a países más fuertes. <br/>
+                  De aquí, su lema: "Uniendo a las mujeres para cambiar el mundo".
                   <Link href={"https://girlup.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
                         <span className={classes.linkGirlUp}> Leer más...</span>
                   </Link>
@@ -162,7 +163,7 @@ function AboutUs(width: any) {
                   alrededor del mundo, encaminando el vigor y la experiencia de empresas y ONGs, para ayudar a las Naciones Unidas 
                   a abordar cuestiones como el cambio climático, la salud global, la paz, la seguridad, el empoderamiento de la mujer, la erradicación 
                   de la pobreza, y el acceso a la energía, entre otros. <br />
-                  Esto, apoyando programas de UNICEF, ACNUR (UNHCR), FPNU (UNFPA) y ONU Mujeres.  
+                  Esto, apoyando programas de UNICEF, ACNUR (UNHCR), FPNU (UNFPA) y ONU Mujeres que promuevan el desarrollo de los países.  
                   <Link href={"https://unfoundation.org/"} target={"_blank"} className={classes.noDecoration} tabIndex={-1}>
                         <span className={classes.linkUNF}> Leer más...</span>
                   </Link>

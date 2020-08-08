@@ -1,33 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ff27735.chunk.css",
-    "main.js": "/static/js/main.bdae3295.chunk.js",
-    "main.js.map": "/static/js/main.bdae3295.chunk.js.map",
+    "main.css": "/static/css/main.fc1d2e89.chunk.css",
+    "main.js": "/static/js/main.f9f6ba6c.chunk.js",
+    "main.js.map": "/static/js/main.f9f6ba6c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e2664bac.js",
     "runtime-main.js.map": "/static/js/runtime-main.e2664bac.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c7b2e5db.chunk.js": "/static/js/2.c7b2e5db.chunk.js",
-    "static/js/2.c7b2e5db.chunk.js.map": "/static/js/2.c7b2e5db.chunk.js.map",
+    "static/js/2.e1cbb527.chunk.js": "/static/js/2.e1cbb527.chunk.js",
+    "static/js/2.e1cbb527.chunk.js.map": "/static/js/2.e1cbb527.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.30de419cfec70bfd91cf9dc74a5aac71.js": "/precache-manifest.30de419cfec70bfd91cf9dc74a5aac71.js",
+    "precache-manifest.402fcc2d30d0502dcff5d654e9702567.js": "/precache-manifest.402fcc2d30d0502dcff5d654e9702567.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.4ff27735.chunk.css.map": "/static/css/main.4ff27735.chunk.css.map",
-    "static/js/2.c7b2e5db.chunk.js.LICENSE.txt": "/static/js/2.c7b2e5db.chunk.js.LICENSE.txt",
+    "static/css/main.fc1d2e89.chunk.css.map": "/static/css/main.fc1d2e89.chunk.css.map",
+    "static/js/2.e1cbb527.chunk.js.LICENSE.txt": "/static/js/2.e1cbb527.chunk.js.LICENSE.txt",
     "static/media/Banner1.jpeg": "/static/media/Banner1.4533ec49.jpeg",
     "static/media/Causa1.png": "/static/media/Causa1.154ce361.png",
     "static/media/Causa2.png": "/static/media/Causa2.957c64fd.png",
     "static/media/Causa3.png": "/static/media/Causa3.4ccfc988.png",
     "static/media/Causa4.png": "/static/media/Causa4.63c2bdcc.png",
+    "static/media/GirlUpLoguito.png": "/static/media/GirlUpLoguito.0e1f4f8c.png",
     "static/media/LogoFondoRosado.png": "/static/media/LogoFondoRosado.e83f60fb.png",
     "static/media/Logotipo2.png": "/static/media/Logotipo2.90e2d423.png",
+    "static/media/UNFLogo.jpg": "/static/media/UNFLogo.871c999d.jpg",
     "static/media/UnderConstruction.gif": "/static/media/UnderConstruction.01cfbcb9.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.e2664bac.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c7b2e5db.chunk.js",
-    "static/css/main.4ff27735.chunk.css",
-    "static/js/main.bdae3295.chunk.js"
+    "static/js/2.e1cbb527.chunk.js",
+    "static/css/main.fc1d2e89.chunk.css",
+    "static/js/main.f9f6ba6c.chunk.js"
   ]
 }

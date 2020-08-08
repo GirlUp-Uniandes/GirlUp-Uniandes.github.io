@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32398e2b55003cf51f623ae96b6ae9c9",
+    "revision": "f560a6719d3aca0fc02fca553fb62964",
     "url": "/index.html"
   },
   {
-    "revision": "9b4823b2cd592f0820bc",
+    "revision": "533e977ab370163c454d",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "fbb13ee43f36ffa14211",
-    "url": "/static/css/main.4ff27735.chunk.css"
+    "revision": "9d01c4d6f1c1696fb150",
+    "url": "/static/css/main.fc1d2e89.chunk.css"
   },
   {
-    "revision": "9b4823b2cd592f0820bc",
-    "url": "/static/js/2.c7b2e5db.chunk.js"
+    "revision": "533e977ab370163c454d",
+    "url": "/static/js/2.e1cbb527.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.c7b2e5db.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e1cbb527.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fbb13ee43f36ffa14211",
-    "url": "/static/js/main.bdae3295.chunk.js"
+    "revision": "9d01c4d6f1c1696fb150",
+    "url": "/static/js/main.f9f6ba6c.chunk.js"
   },
   {
     "revision": "125b9eb0b4d069ee6408",
@@ -48,12 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Causa4.63c2bdcc.png"
   },
   {
+    "revision": "0e1f4f8cca87888fffa64c997d70882a",
+    "url": "/static/media/GirlUpLoguito.0e1f4f8c.png"
+  },
+  {
     "revision": "e83f60fbdf1150a01609eebc92d75902",
     "url": "/static/media/LogoFondoRosado.e83f60fb.png"
   },
   {
     "revision": "90e2d423ec0eb3fae4008b1d519d259f",
     "url": "/static/media/Logotipo2.90e2d423.png"
+  },
+  {
+    "revision": "871c999d013f09ba9cfa0f17baf16210",
+    "url": "/static/media/UNFLogo.871c999d.jpg"
   },
   {
     "revision": "01cfbcb9561275a6b00cde7faa8d37d2",

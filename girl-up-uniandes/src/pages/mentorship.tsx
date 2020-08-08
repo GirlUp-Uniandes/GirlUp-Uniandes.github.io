@@ -6,7 +6,7 @@ import Logotipo2 from '../images/Logotipo2.png';
 import NavBar from '../components/navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Grid,Typography, makeStyles, isWidthUp, withWidth} from '@material-ui/core';
+import {Grid,Typography, makeStyles, withWidth} from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     containerFix: {
@@ -17,8 +17,7 @@ function EnConstruccion(width:any){
     const classes = useStyles(); 
     return(
         <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
-        <div className={classNames("container-fluid", classes.containerFix)}>
-        <Grid container direction="column" justify="center" alignItems="center" style={{position:'absolute'}}
+        <Grid className={classNames("container-fluid", classes.containerFix)} container direction="column" justify="center" alignItems="center" style={{position:'absolute'}}
 >     
             <Grid item>
                 <img style={{marginTop:90}} src={Logotipo2} width="300" alt="GirlUp"/>
@@ -37,7 +36,6 @@ function EnConstruccion(width:any){
                 <img src={UnderConstruction} width="650" alt="Muy Pronto" />
             </Grid>
         </Grid>
-        </div>
         </div>
     );
 }

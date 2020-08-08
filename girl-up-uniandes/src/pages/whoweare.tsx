@@ -6,7 +6,7 @@ import Logotipo2 from '../images/Logotipo2.png';
 import NavBar from '../components/navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Grid,Typography, makeStyles, isWidthUp, withWidth} from '@material-ui/core';
+import {Grid,Typography, makeStyles, withWidth} from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     containerFix: {

@@ -8,9 +8,7 @@ import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
@@ -79,16 +77,12 @@ export default function Blog({id, writer, email, title, image, description, date
 
   return (
     <Card className={classes.root}>
+      <Link to={"blog/"+id} className={classes.noDecoration} tabIndex={-1}>
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
             {writer.charAt(0)}
           </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
         }
         title={title}
         subheader={date}
@@ -99,11 +93,12 @@ export default function Blog({id, writer, email, title, image, description, date
         image={image}
         title={title}
       />
+      </Link>
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
           {description}
-          <Link to={""+id} className={classes.noDecoration} tabIndex={-1}>
-            <span className={classes.link}> read more...</span>
+          <Link to={"blog/"+id} className={classes.noDecoration} tabIndex={-1}>
+            <span className={classes.link}> leer más...</span>
           </Link>
         </Typography>
         <Typography variant="body2" color="textSecondary" component="h6">
@@ -114,9 +109,6 @@ export default function Blog({id, writer, email, title, image, description, date
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
@@ -124,101 +116,3 @@ export default function Blog({id, writer, email, title, image, description, date
     </Card>
   );
 }
-
-
-/*import React from "react";
-import { Link } from "react-router-dom";
-import { Theme, WithStyles } from '@material-ui/core/styles';
-import format from "date-fns/format";
-import classNames from "classnames";
-import { Typography, Card, Box, withStyles } from "@material-ui/core";
-
-const styles = (theme: Theme) => ({
-  img: {
-    width: "100%",
-    height: "auto",
-    marginBottom: 8
-  },
-  card: {
-    boxShadow: theme.shadows[2]
-  },
-  noDecoration: {
-    textDecoration: "none !important"
-  },
-  title: {
-    transition: theme.transitions.create(["background-color"], {
-      duration: theme.transitions.duration.complex,
-      easing: theme.transitions.easing.easeInOut
-    }),
-    cursor: "pointer",
-    color: theme.palette.secondary.main,
-    "&:hover": {
-      color: theme.palette.secondary.dark
-    },
-    "&:active": {
-      color: theme.palette.primary.dark
-    }
-  },
-  link: {
-    transition: theme.transitions.create(["background-color"], {
-      duration: theme.transitions.duration.complex,
-      easing: theme.transitions.easing.easeInOut
-    }),
-    cursor: "pointer",
-    color: theme.palette.primary.main,
-    "&:hover": {
-      color: theme.palette.primary.dark
-    }
-  },
-  showFocus: {
-    "&:focus span": {
-      color: theme.palette.secondary.dark
-    }
-  }
-});
-
-interface Props {
-    classes : object;
-    url : string;
-    title : string; 
-    date: number;
-    snippet:string;
-    src:string;
-}
-
-type MyProps = Props & WithStyles<typeof styles>;
-
-function BlogCard(props : MyProps) {
-  const { classes, url, src, date, title, snippet } = props;
-  return (
-    <Card className={classes.card}>
-      {src && (
-        <Link to={url} tabIndex={-1}>
-          <img src={src} className={classes.img} alt="" />
-        </Link>
-      )}
-      <Box p={2}>
-        <Typography variant="body2" color="textSecondary">
-          {format(new Date(), 'yyyy-MM-dd')}
-        </Typography>
-        <Link
-          to={url}
-          className={classNames(classes.noDecoration, classes.showFocus)}
-        >
-          <Typography variant="h6">
-            <span className={classes.title}>{title}</span>
-          </Typography>
-        </Link>
-        <Typography variant="body1" color="textSecondary">
-          {snippet}
-          <Link to={url} className={classes.noDecoration} tabIndex={-1}>
-            <span className={classes.link}> read more...</span>
-          </Link>
-        </Typography>
-      </Box>
-    </Card>
-  );
-}
-
-export default withStyles(styles, { withTheme: true })(BlogCard);
-*/

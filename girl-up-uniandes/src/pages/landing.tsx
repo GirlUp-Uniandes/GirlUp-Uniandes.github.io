@@ -5,7 +5,7 @@ import Banner1 from '../images/Banner1.jpeg';
 import NavBar from '../components/navbar';
 import CausasLocales from '../components/localcauses'
 import {Typography} from '@material-ui/core';
-import Girlafesto from "../components/girlafesto"
+import AboutUs from "../components/aboutus"
 
   function CarouselLanding() {
     return (
@@ -47,11 +47,11 @@ import Girlafesto from "../components/girlafesto"
   }
 function QuienesSomos(){
   return(
-  <div style={{flexGrow: 1, marginTop: 30, marginBottom: 30}}>
+  <div style={{flexGrow: 1, marginTop: 30}}>
     <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#12B7EF", marginTop: 30, marginBottom: 30, fontWeight: "bold"}} >
           ¿Quienes Somos?
-          <Girlafesto/>
       </Typography>
+      <AboutUs/>
   </div>);
 
 }

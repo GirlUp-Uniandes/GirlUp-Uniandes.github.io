@@ -28,7 +28,7 @@ export default function Girlafesto() {
     return (
       <div style={{flexGrow: 1}}>
       <Container className={classes.root}>
-      <Grid className={classes.root} item xs={12} sm={12} md={12} lg={12} xl={12}>
+      <Grid item className={classes.root} xs={12} sm={12} md={12} lg={12} xl={12}>
         <ThemeProvider theme={theme}>
         <TextLoop>
         <Typography  variant="h5" className={classes.text}>Soy una mujer</Typography>

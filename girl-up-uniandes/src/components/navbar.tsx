@@ -103,7 +103,7 @@ function NavBar() {
   ];
   return (
     <div>
-      <AppBar position="fixed" className={classes.appBar}>
+      <AppBar position="fixed"  className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <div>
             <Link to={"/"}>

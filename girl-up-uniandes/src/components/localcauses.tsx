@@ -74,7 +74,7 @@ function CausasLocales(width: any) {
             className={classes.cardWrapper}
             data-aos="zoom-in-up"
           >
-            <Paper  style={{padding:25,margin: 'auto'}}>
+            <Paper  style={{padding:25,margin: 'auto',backgroundColor:"#FFF7FC"}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa1} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
@@ -108,21 +108,20 @@ function CausasLocales(width: any) {
           </Grid>
           <Grid
             item
-            className={classes.cardWrapperHighlighted}
             xs={12}
             sm={6}
             lg={3}
+            className={classes.cardWrapper}
             data-aos="zoom-in-up"
-            data-aos-delay="200"
           >
-            <Paper  style={{padding:25,margin: 'auto'}}>
+            <Paper  style={{padding:25,margin: 'auto',backgroundColor:"#FFF7FC"}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa2} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
               </Grid>
               <Grid item >
                 <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2, marginBottom: 2, fontWeight: "bold"}}>
-                  STEAM for Social Good
+                  Proyectos Locales
                 </Typography>
               </Grid>
               <Grid item >
@@ -147,6 +146,7 @@ function CausasLocales(width: any) {
             </Grid>
           </Paper>
           </Grid>
+          
           <Grid
             item
             className={classes.cardWrapper}
@@ -156,7 +156,7 @@ function CausasLocales(width: any) {
             data-aos="zoom-in-up"
             data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
           >
-            <Paper  style={{padding:25,margin: 'auto'}}>
+            <Paper  style={{padding:25,margin: 'auto',backgroundColor:"#FFF7FC"}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa3} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
@@ -197,7 +197,7 @@ function CausasLocales(width: any) {
             data-aos="zoom-in-up"
             data-aos-delay={isWidthUp("md", width) ? "600" : "200"}
           >
-            <Paper  style={{padding:25,margin: 'auto'}}>
+            <Paper  style={{padding:25,margin: 'auto',backgroundColor:"#FFF7FC"}}>
             <Grid item xs={12} sm container direction="column" justify="center" alignItems="center" spacing={2}>
               <Grid item>
                  <img alt="complex" src={Causa4} style={{ width: 300,height: 300,margin: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>

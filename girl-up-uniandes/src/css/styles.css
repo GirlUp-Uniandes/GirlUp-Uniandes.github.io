@@ -3,4 +3,7 @@
     background-color: #ED0095;
  }
 
- 
+ .fondoAzul{
+  background-image: "url(" + '../images/FondoAzul.png' + ")";
+
+ }

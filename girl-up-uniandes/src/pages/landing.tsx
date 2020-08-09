@@ -1,8 +1,7 @@
 import React from 'react'
 import "../css/styles.css";
 import {Typography, Button, Grid, Link, Hidden, makeStyles, useMediaQuery,useTheme} from '@material-ui/core';
-
-import AboutUs from "../components/aboutus"
+import AboutUs from "../components/aboutus";
 import NavBar from '../components/navbar';
 import CausasLocales from '../components/localcauses'
 
@@ -16,6 +15,7 @@ import GirlUpLoguito from '../images/GirlUpLoguito.png'
 import Background1 from "../images/Background1.png"
 
 import TextLoop from "react-text-loop";
+require('typeface-raleway');
 
 
 const useStyles = makeStyles((theme) => ({
@@ -52,12 +52,12 @@ export default function Landing() {
             </Grid>
             <Grid item >
               <Typography variant={isMobileOrTablet ? "h6" : "h5"} color="secondary" display="block" style={{fontWeight: "bold", textAlign:'center',marginLeft: 20, marginRight: 20 }} >
-                Unete a GirlUp tan solo llenando tus datos, pronto estaremos en contacto contigo!
+                Únete a GirlUp tan solo llenando tus datos, pronto estaremos en contacto contigo!
               </Typography>
             </Grid>
             <Grid item >
-              <Button variant="contained" color="primary" href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u" style={{margin:15}} >
-                Llena tus datos!
+              <Button variant="contained" target="_blank" color="primary" href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u" style={{margin:15}} >
+                ¡Llena tus datos!
               </Button>
             </Grid>
           </Grid>
@@ -118,7 +118,7 @@ export default function Landing() {
             </Hidden>
           </Grid>
           <Grid item sm >
-            <Link href={"https://girlup.org/"}>
+            <Link target="_blank" href={"https://girlup.org/"}>
               <img alt="complex" src={GirlUpLoguito} style={{ display: 'block',maxWidth: '30%',minWidth: '10%', marginTop:50, marginLeft:'30%',marginRight:'30%'}}/>
             </Link>
             <Typography className={classes.typography} variant="h5" color = "primary" component="h6" style={{textAlign: "justify",margin:60}} >
@@ -127,14 +127,14 @@ export default function Landing() {
               comunidad que aboga por generar un cambio positivo en el mundo. <br/>
               Girl Up visualiza un mundo en el que cada mujer y cada niña pueda alcanzar su máximo potencial,   
               liderando grandes sueños que lleven a mejores comunidades y a países más fuertes. <br/>
-              De aquí, su lema: "Uniendo a las mujeres para cambiar el mundo".<Link href={"https://girlup.org/"} color = "secondary" > Leer más...</Link>
+              De aquí, su lema: "Uniendo a las mujeres para cambiar el mundo".<Link target="_blank" href={"https://girlup.org/"} color = "secondary" > Leer más...</Link>
             </Typography>
             
           </Grid>
         </Grid>
         <Grid item container direction="row" justify="center" alignItems="center"  >
           <Grid item sm >
-            <Link href={"https://unfoundation.org/"}>
+            <Link target="_blank" href={"https://unfoundation.org/"}>
               <img alt="complex" src={UNFLogo} style={{ display: 'block',maxWidth: '50%',minWidth: '30%', marginTop:50, marginLeft:'30%',marginRight:'30%'}}/>
             </Link>
             <Typography className={classes.typography} variant="h5" component="h6" color = "secondary" style={{textAlign: "justify",margin:60}} >
@@ -143,7 +143,7 @@ export default function Landing() {
               a abordar cuestiones como el cambio climático, la salud global, la paz, la seguridad, el empoderamiento de la mujer, la erradicación 
               de la pobreza, y el acceso a la energía, entre otros. <br />
               Esto, apoyando programas de UNICEF, ACNUR (UNHCR), FPNU (UNFPA) y ONU Mujeres que promuevan el desarrollo de los países.  
-              <Link href={"https://unfoundation.org/"} color = "primary" > Leer más...</Link>
+              <Link target="_blank" href={"https://unfoundation.org/"} color = "primary" > Leer más...</Link>
             </Typography>
           </Grid>
           <Grid item sm >

@@ -12,6 +12,7 @@ import Mentorship from './pages/mentorship';
 import Whoweare from './pages/whoweare';
 import Landing from './pages/landing';
 import ContactUs from './pages/contactus'
+import BlogPost from './components/blog/BlogPost'
 
 const theme = createMuiTheme({
   palette: {
@@ -49,6 +50,7 @@ function App() {
             <Route exact path='/mentoria' component={Mentorship} />
             <Route exact path='/girlup' component={Girlupuniandes} />
             <Route exact path='/eventos' component={Events} />
+            <Route path="/blog/:id" component={BlogPost} />
             </ThemeProvider>
           </Switch>
         </div>

@@ -3,44 +3,65 @@ import "../css/styles.css";
 import classNames from "classnames";
 import UnderConstruction from '../images/UnderConstruction.gif';
 import Logotipo2 from '../images/Logotipo2.png';
+import Fondo2 from '../images/Fondo2.png';
+
 import NavBar from '../components/navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Grid,Typography, makeStyles, withWidth} from '@material-ui/core';
+import {Grid,Typography, makeStyles, Button, useMediaQuery,useTheme} from '@material-ui/core';
+
+
 
 const useStyles = makeStyles((theme) => ({
-    containerFix: {
+    banner: {
+    backgroundImage: `url(${Fondo2})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    maxWidth: "100%",
   }
 }));
 
 function EnConstruccion(width:any){
     const classes = useStyles(); 
+    const theme = useTheme();
+    const isMobileOrTablet = useMediaQuery(theme.breakpoints.down("sm"));
     return(
-        <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
-        <Grid className={classNames("container-fluid", classes.containerFix)} container direction="column" justify="center" alignItems="center" style={{position:'absolute'}}
->     
-            <Grid item>
-                <img style={{marginTop:90}} src={Logotipo2} width="300" alt="GirlUp"/>
+        <div >
+        <Grid container direction="column" justify="center" alignItems="center" className = {classes.banner}style={{marginTop: 65}}>
+            <Grid item xs={12} sm  style={{marginLeft:40,marginRight:40}}>
+                <Grid item container direction="column" justify="center" alignItems="center" className={classes.banner}>
+                    <Grid item style={{marginTop:30}}>
+                        <Button href="https://girlup.org/">
+                            <img alt="complex" src={Logotipo2} style={{ width:500, textAlign: "center", marginLeft: 'auto', marginRight: 'auto',display: 'block',maxWidth: '100%',maxHeight: '100%'}}/>
+                        </Button>
+                    </Grid>
+                    <Grid item >
+                        <Typography variant={isMobileOrTablet ? "h4" : "h3"} color="primary" display="block" style={{fontWeight: "bold", textAlign:'center',marginLeft: 20, marginRight: 20,marginBottom:5 }} > 
+                            Página En Construcción             
+                        </Typography >                          
+                    </Grid>
+                    <Grid item >
+                        <Typography variant={isMobileOrTablet ? "h6" : "h5"} color="secondary" display="block" style={{fontWeight: "bold", textAlign:'center',marginLeft: 20, marginRight: 20 }} > 
+                            Muy pronto podrás saber más de mentoría...                
+                        </Typography >                          
+                    </Grid>
+                </Grid>
+
+                
             </Grid>
-            <Grid item>
-                <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#ED0095",  fontWeight: "bold"}}>
-                    Página en construcción 
-                </Typography>
-            </Grid>
-            <Grid item>
-                <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2}}>
-                    Muy pronto podrás saber más de mentoría...
-                </Typography>
-            </Grid>
-            <Grid item>
-                <img src={UnderConstruction} width="650" alt="Muy Pronto" />
+            <Grid item xs={12}sm>
+                <Grid item container direction="column" justify="center" alignItems="center"  spacing = {2} style={{marginLeft: 10, marginRight: 10}}>
+                    <Grid item style={{marginBottom:10}}>
+                        <img alt="complex" src={UnderConstruction} style={{maxWidth: '100%',minWidth: '50%', textAlign: "center"}}/>
+                    </Grid>
+                </Grid>
             </Grid>
         </Grid>
         </div>
     );
 }
 
-function Landing() {
+export default function Mentorias() {
     return (
       <div>
         <NavBar/>
@@ -49,7 +70,7 @@ function Landing() {
     );
   }
   
-  export default (withWidth()(Landing));
+
 
 
 

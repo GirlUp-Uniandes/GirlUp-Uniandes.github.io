@@ -121,7 +121,7 @@ function CausasLocales(width: any) {
               </Grid>
               <Grid item >
                 <Typography variant="h5" component="h6" style={{textAlign: "center", color:"#12B7EF", marginTop: 2, marginBottom: 2, fontWeight: "bold"}}>
-                  Proyectos Locales
+                  STEAM
                 </Typography>
               </Grid>
               <Grid item >

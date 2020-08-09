@@ -1,9 +1,13 @@
 
  .navBar {
-    background-color: #ED0095;
- }
+   background-color: #ED0095;
+}
 
  .fondoAzul{
   background-image: "url(" + '../images/FondoAzul.png' + ")";
 
  }
+.fondoAzul{
+ background-image: "url(" + '../images/FondoAzul.png' + ")";
+
+}

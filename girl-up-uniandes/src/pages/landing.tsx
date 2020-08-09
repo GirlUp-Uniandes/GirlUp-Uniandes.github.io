@@ -7,6 +7,8 @@ import CausasLocales from '../components/localcauses'
 
 import BannerImg from "../images/Powerful.gif"
 import Logotipo from "../images/Logotipo2.png"
+import Logotipo3 from "../images/Logotipo3.png"
+import TeamImg from "../images/Team.png"
 import BlueShape from "../images/BlueShape.png"
 import Friends from "../images/Friends.png"
 import PowerfulAmico from "../images/Powerful-amico.png"
@@ -43,7 +45,7 @@ export default function Landing() {
   function PrimerBanner(){
     return(
       <Grid container direction="row" justify="center" alignItems="center" style={{marginTop: 100}}>
-        <Grid item xs={12} sm  style={{marginLeft:40,marginRight:40}}>
+        <Grid item xs={12} sm  style={{marginLeft:20,marginRight:20}}>
           <Grid item container direction="column" justify="center" alignItems="center" className={classes.banner}>
             <Grid item >
               <Button href="https://girlup.org/">
@@ -63,11 +65,13 @@ export default function Landing() {
           </Grid>
       </Grid>
       <Grid item xs={12}sm>
-        <Grid item container direction="column" justify="center" alignItems="center"  spacing = {2} style={{marginLeft: 10, marginRight: 10}}>
-          <Grid item >
-            <img alt="complex" src={BannerImg} style={{maxWidth: '100%',minWidth: '50%', textAlign: "center"}}/>
+      <Hidden xsDown>
+          <Grid item container direction="column" justify="center" alignItems="center"  spacing = {2} style={{marginLeft: 10, marginRight: 10}}>
+            <Grid item >
+              <img alt="complex" src={BannerImg} style={{maxWidth: '100%',minWidth: '50%', textAlign: "center"}}/>
+            </Grid>
           </Grid>
-        </Grid>
+        </Hidden>
       </Grid>
     </Grid>
     );
@@ -152,14 +156,43 @@ export default function Landing() {
             </Hidden>
           </Grid>
         </Grid>
-      </Grid> 
-        
+      </Grid>         
   );}
 
+  function GirlUpUniandes(){
+    return(
+      <div style={{backgroundColor:"#ED0095"}}>
+        <Grid container direction="row" justify="center" alignItems="center" style={{marginTop: 65, marginBottom:100}}>
+            
+            <Grid item xs={12}sm>
+              <Hidden xsDown>
+                <Grid item container direction="column" justify="center" alignItems="center" style={{marginLeft: 10, marginRight: 10}}>
+                    <Grid item style={{marginBottom:30}}>
+                        <img alt="complex" src={TeamImg} style={{maxWidth: '100%',minWidth: '50%', textAlign: "center"}}/>
+                    </Grid>
+                </Grid>
+              </Hidden>
+            </Grid>
+            <Grid item xs={12}sm>
+                <Grid item container direction="column" justify="center" alignItems="center" style={{marginLeft: 10, marginRight: 10}}>
+                    <Grid item style={{marginTop:60}}>
+                        <img alt="complex" src={Logotipo3} style={{maxWidth: '40%',minWidth: '30%', textAlign: "center", marginLeft:"30%",marginRight:"30%"}}/>
+                    </Grid>
+                    <Typography className={classes.typography} variant="h5" component="h6"  style={{color:"#FAC8C8",textAlign: "justify",margin:60}} >
+                      Con Girl Up Uniandes queremos generar un impacto en nuestra comunidad uniandina, en nuestra ciudad, Bogotá y en nuestro país, Colombia. Descubre nuestro programa de mentorías para niñas de colegio, estudiantes de primer semestre y estudiantes a punto de graduarse de la U. Ayúdanos a promover la educación, porque educar a una niña, es educar a todo un país. ¡Apóyanos a llevar STEAM (ciencia, tecnología, ingeniería, arte y matemáticas) a todos los rincones de nuestro hermoso país y del mundo!  
+                    </Typography>
+                </Grid>
+            </Grid>
+            
+        </Grid>
+      </div>
+    );
+  }
   return (
     <div style={{ overflowX:"hidden"}}>
       <NavBar/>
       <PrimerBanner/>
+      <GirlUpUniandes/>
       <TextoAnimado/>
       <QuienesSomos/>
       <CausasLocales/>

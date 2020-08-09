@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {RouteComponentProps} from "react-router-dom";
 import NavBar from "../navbar"
 import classNames from "classnames";
@@ -129,7 +129,7 @@ export default function BlogPost({ match }: RouteComponentProps<TParams>) {
                           <ShareButton
                             type={type}
                             title="Girl Up Uniandes"
-                            description="Encontré un post muy inspirador en Girl Up Uniandes!"
+                            description={"¡Encontré un post muy inspirador en Girl Up Uniandes! \n Míralo aquí: " +  window.location.href}
                           />
                         </Grid>
                       )

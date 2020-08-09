@@ -19,19 +19,7 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import MailIcon from '@material-ui/icons/Mail';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
-/**
- * switch({option}){
-                    case("Compartir en Facebook"):
-                        return(<FacebookIcon style={{backgroundColor:'#3B5998'}}/>);
-                    case("Compartir por WhatsApp"):
-                        return(<WhatsAppIcon style={{backgroundColor:'#075E54'}}/>);
-                    case("Compartir por Email"):
-                          return(<MailIcon />);
-                    case("Compartir en LinkedIn"):
-                          return(<LinkedInIcon style={{backgroundColor:'#0E76A8'}}/>);
-                    case("Compartir en Twitter"):
-                          return(<TwitterIcon style={{backgroundColor:'#00ACEE'}}/>);
- */
+
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 445,
@@ -113,6 +101,31 @@ interface Props {
     description:string;
     date:string;
     tags:string[];
+}
+
+interface MyProps {
+  option:string;
+}
+
+function Share({option}:MyProps){
+    if(option==="Compartir en Facebook") {
+          return(<div><FacebookIcon style={{color:'#3B5998'}}/></div>);
+    }
+    else if(option==="Compartir por WhatsApp") {
+           return(<div><WhatsAppIcon style={{color:'#25D366'}}/></div>); 
+    }
+    else if(option==="Compartir por Email") {
+           return(<div><MailIcon /></div>);
+    }
+    else if(option==="Compartir en LinkedIn") {
+          return(<div><LinkedInIcon style={{color:'#0E76A8'}}/></div>);
+    }
+    else if(option==="Compartir en Twitter") {
+        return(<div><TwitterIcon style={{color:'#00ACEE'}}/></div>);
+     }
+     else {
+       return(<div></div>);
+    }
 }
 
 export default function Blog({id, writer, email, title, image, description, date, tags}:Props) {
@@ -228,7 +241,7 @@ export default function Blog({id, writer, email, title, image, description, date
                   }}
                 >
                 <ListItemIcon>
-                  <FacebookIcon style={{color:'#3B5998'}}/>
+                  <Share option={option}/>
                 </ListItemIcon>
                   {option}
                 </MenuItem>

@@ -4,6 +4,7 @@ import {Typography, Button, Grid, Link, Hidden, makeStyles, useMediaQuery,useThe
 import AboutUs from "../components/aboutus";
 import NavBar from '../components/navbar';
 import CausasLocales from '../components/localcauses'
+import InstagramEmbed from 'react-instagram-embed';
 
 import BannerImg from "../images/Powerful.gif"
 import Logotipo from "../images/Logotipo2.png"
@@ -15,6 +16,7 @@ import PowerfulAmico from "../images/Powerful-amico.png"
 import UNFLogo from '../images/UNFLogo.png'
 import GirlUpLoguito from '../images/GirlUpLoguito.png'
 import Background1 from "../images/Background1.png"
+import IGIcon from "../images/InstagramIcon.png"
 
 import TextLoop from "react-text-loop";
 require('typeface-raleway');
@@ -188,6 +190,67 @@ export default function Landing() {
       </div>
     );
   }
+
+  function RedesSociales(){
+    return(
+      <Grid container direction="column" justify="center" alignItems="center" className={classes.backgroundQuienesSomos} >
+        <Grid item container direction="row" justify="center" alignItems="center"  >
+          <Grid item lg={6}sm >
+            <Grid item container direction="column" justify="center" alignItems="center" >
+              <Grid item sm >
+              <img alt="IG" src={IGIcon} style={{maxWidth: '50%',minWidth: '20%', marginBottom:10, marginLeft:'25%' , marginRight:'10%',textAlign: "center"}}/>
+              </Grid>
+              <Grid item sm >
+                <Typography className={classes.typography} color="primary" variant="h4" component="h5" style={{textAlign: "center"}} >
+                  Siguenos en instagram!
+                </Typography>
+              </Grid>
+              <Grid item sm >
+                <Typography className={classes.typography} color="secondary" variant="h4" component="h5" style={{textAlign: "center"}} >
+                  @girlupuniandes
+                </Typography>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item lg={3}sm >
+              <InstagramEmbed
+                url='https://www.instagram.com/p/BkDiUWWFZCs/'
+                maxWidth={320}
+                hideCaption={false}
+                containerTagName='div'
+                protocol=''
+                injectScript
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+          </Grid>
+          <Grid item lg={3} sm >
+              <InstagramEmbed
+                url='https://www.instagram.com/p/Bl_GEjrHVxh/'
+                maxWidth={320}
+                hideCaption={false}
+                containerTagName='div'
+                protocol=''
+                injectScript
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+          </Grid>
+        </Grid>
+        <Grid item container direction="row" justify="center" alignItems="center"  >
+          <Grid item sm >
+
+          </Grid>
+        </Grid>
+      </Grid>
+      
+    );
+  }
+
   return (
     <div style={{ overflowX:"hidden"}}>
       <NavBar/>
@@ -196,6 +259,7 @@ export default function Landing() {
       <TextoAnimado/>
       <QuienesSomos/>
       <CausasLocales/>
+      <RedesSociales/>
     </div>
   );
 }

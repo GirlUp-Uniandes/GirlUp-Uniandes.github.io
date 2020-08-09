@@ -57,7 +57,7 @@ function calculateSpacing(width: any) {
 function CausasLocales(width: any) {
     const classes = useStyles(); 
     return (
-    <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
+    <div className="lg-p-top" style={{ marginTop:30, marginBottom:60, backgroundColor: "#FFFFFF" }}>
       <Typography variant="h4" component="h5" style={{textAlign: "center", color:"#ED0095", marginTop: 30, marginBottom: 30, fontWeight: "bold"}} >
           Proyectos Locales
       </Typography>

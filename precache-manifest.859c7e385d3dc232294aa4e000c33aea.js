@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8be735223859966af14c80ecee5d749d",
+    "revision": "6b7dba1e4b3d4542e60057ad7b59a123",
     "url": "/index.html"
   },
   {
-    "revision": "83a892b4e1ff8d576104",
+    "revision": "95703f5e07dc2d15508e",
     "url": "/static/css/2.3da5fe11.chunk.css"
   },
   {
-    "revision": "92df28f944f1360c26fc",
-    "url": "/static/css/main.94363f48.chunk.css"
+    "revision": "aa5d5998452f42e29d4e",
+    "url": "/static/css/main.99f735ad.chunk.css"
   },
   {
-    "revision": "83a892b4e1ff8d576104",
-    "url": "/static/js/2.abb7bfb5.chunk.js"
+    "revision": "95703f5e07dc2d15508e",
+    "url": "/static/js/2.f079fe98.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.abb7bfb5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f079fe98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92df28f944f1360c26fc",
-    "url": "/static/js/main.4a695dd0.chunk.js"
+    "revision": "aa5d5998452f42e29d4e",
+    "url": "/static/js/main.16990c3d.chunk.js"
   },
   {
     "revision": "125b9eb0b4d069ee6408",
@@ -52,12 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Causa4.63c2bdcc.png"
   },
   {
-    "revision": "051ec7332028de0d577f7d15f85648da",
-    "url": "/static/media/Friends.051ec733.png"
+    "revision": "15815d55a9857ef9fa5447a47784a14d",
+    "url": "/static/media/Fondo2.15815d55.png"
+  },
+  {
+    "revision": "194abaaf579dd3bd5b0c82e821d3d2a0",
+    "url": "/static/media/Friends.194abaaf.png"
   },
   {
     "revision": "6d2741b943e543cc5e0dacbe4b3b7a3e",
     "url": "/static/media/GirlUpLoguito.6d2741b9.png"
+  },
+  {
+    "revision": "787d9ef4654e03043483629aa4ab4f2c",
+    "url": "/static/media/InstagramIcon.787d9ef4.png"
   },
   {
     "revision": "e83f60fbdf1150a01609eebc92d75902",
@@ -68,12 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Logotipo2.90e2d423.png"
   },
   {
-    "revision": "c7cc8f01b7028270f992a993d1519afb",
-    "url": "/static/media/Powerful-amico.c7cc8f01.png"
+    "revision": "287230b85350b072fa849de7a78f946e",
+    "url": "/static/media/Logotipo3.287230b8.png"
+  },
+  {
+    "revision": "07deaf49b06dc498a28d4a7f9d4c4bf7",
+    "url": "/static/media/Powerful-amico.07deaf49.png"
   },
   {
     "revision": "e681613ee812353a2f97df1367698775",
     "url": "/static/media/Powerful.e681613e.gif"
+  },
+  {
+    "revision": "7bb5ef5c252e2ceb6abf924b392b957e",
+    "url": "/static/media/Team.7bb5ef5c.png"
   },
   {
     "revision": "e1c585e9572aaae06b7fb6fb16c9d4f4",

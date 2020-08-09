@@ -206,9 +206,11 @@ export default function Landing() {
                 </Typography>
               </Grid>
               <Grid item sm >
+                <Link href="https://www.instagram.com/girlupuniandes/">
                 <Typography className={classes.typography} color="secondary" variant="h4" component="h5" style={{textAlign: "center"}} >
                   @girlupuniandes
                 </Typography>
+                </Link>
               </Grid>
             </Grid>
           </Grid>
@@ -241,11 +243,7 @@ export default function Landing() {
               />
           </Grid>
         </Grid>
-        <Grid item container direction="row" justify="center" alignItems="center"  >
-          <Grid item sm >
-
-          </Grid>
-        </Grid>
+        
       </Grid>
       
     );

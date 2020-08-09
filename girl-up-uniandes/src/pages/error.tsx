@@ -3,15 +3,13 @@ import "../css/styles.css";
 import NavBar from '../components/navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Grid,Typography, makeStyles, Button, useMediaQuery,useTheme} from '@material-ui/core';
+import {Grid, makeStyles, Button} from '@material-ui/core';
 import ErrorGif from "../images/Error.gif";
 import Logotipo2 from '../images/Logotipo2.png';
 import Fondo2 from '../images/Fondo3.png';
 
 
-
-
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     banner: {
     backgroundImage: `url(${Fondo2})`,
     backgroundRepeat: "no-repeat",
@@ -22,8 +20,6 @@ const useStyles = makeStyles((theme) => ({
 
 function EnConstruccion(width:any){
     const classes = useStyles(); 
-    const theme = useTheme();
-    const isMobileOrTablet = useMediaQuery(theme.breakpoints.down("sm"));
     return(
         <div >
         <Grid container direction="column" justify="center" alignItems="center" className = {classes.banner}style={{marginTop: 65}}>

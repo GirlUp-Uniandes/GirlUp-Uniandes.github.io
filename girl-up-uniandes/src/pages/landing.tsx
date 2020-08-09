@@ -1,7 +1,6 @@
 import React from 'react'
 import "../css/styles.css";
 import {Typography, Button, Grid, Link, Hidden, makeStyles, useMediaQuery,useTheme} from '@material-ui/core';
-import AboutUs from "../components/aboutus";
 import NavBar from '../components/navbar';
 import CausasLocales from '../components/localcauses'
 import InstagramEmbed from 'react-instagram-embed';

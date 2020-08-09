@@ -1,6 +1,5 @@
 import React from 'react'
 import "../css/styles.css";
-import classNames from "classnames";
 import UnderConstruction from '../images/UnderConstruction.gif';
 import Logotipo2 from '../images/Logotipo2.png';
 import Fondo2 from '../images/Fondo2.png';
@@ -12,7 +11,7 @@ import {Grid,Typography, makeStyles, Button, useMediaQuery,useTheme} from '@mate
 
 
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     banner: {
     backgroundImage: `url(${Fondo2})`,
     backgroundRepeat: "no-repeat",

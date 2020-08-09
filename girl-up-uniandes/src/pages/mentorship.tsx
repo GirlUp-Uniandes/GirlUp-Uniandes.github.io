@@ -1,6 +1,5 @@
 import React from 'react'
 import "../css/styles.css";
-import classNames from "classnames";
 import UnderConstruction from '../images/UnderConstruction.gif';
 import Logotipo2 from '../images/Logotipo2.png';
 import Fondo2 from '../images/Fondo2.png';

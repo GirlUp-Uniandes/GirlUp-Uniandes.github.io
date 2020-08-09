@@ -71,39 +71,39 @@ function NavBar() {
       icon: <HomeIcon className="text-white" />
     },
     {
-      link: "nosotras",
+      link: "/nosotras",
       name: "Nosotras",
       icon: <PeopleIcon className="text-white" />
     },
     {
-      link: "blog",
+      link: "/blog",
       name: "Blog",
       icon: <CreateIcon className="text-white" />
     },
     {
-      link: "causas",
+      link: "/causas",
       name: "Causas",
       icon: <EmojiEventsIcon className="text-white" />
     },
     {
-      link: "eventos",
+      link: "/eventos",
       name: "Eventos",
       icon: <EventAvailableIcon className="text-white" />
     },
     {
-      link: "mentoria",
+      link: "/mentoria",
       name: "Mentoría",
       icon: <SchoolIcon className="text-white" />
     },
     {
-      link: "contactanos",
+      link: "/contactanos",
       name: "Contáctanos",
       icon: <PhoneIcon className="text-white" />
     }
   ];
   return (
     <div>
-      <AppBar position="fixed" className={classes.appBar}>
+      <AppBar position="fixed"  className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <div>
             <Link to={"/"}>

@@ -1,13 +1,13 @@
 import React from 'react'
 import "../css/styles.css";
-import Error from '../images/Error.gif';
-import Logotipo2 from '../images/Logotipo2.png';
-import Fondo2 from '../images/Fondo3.png';
-
 import NavBar from '../components/navbar';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Grid,Typography, makeStyles, Button, useMediaQuery,useTheme} from '@material-ui/core';
+import ErrorGif from "../images/Error.gif";
+import Logotipo2 from '../images/Logotipo2.png';
+import Fondo2 from '../images/Fondo3.png';
+
 
 
 
@@ -37,7 +37,7 @@ function EnConstruccion(width:any){
             <Grid item xs={12}sm>
                 <Grid item container direction="column" justify="center" alignItems="center" style={{marginLeft: 10, marginRight: 10}}>
                     <Grid item style={{marginBottom:30}}>
-                        <img alt="complex" src={Error} style={{maxWidth: '80%',minWidth: '50%', textAlign: "center"}}/>
+                        <img alt="complex" src={ErrorGif} style={{maxWidth: '80%',minWidth: '50%', textAlign: "center"}}/>
                     </Grid>
                 </Grid>
             </Grid>

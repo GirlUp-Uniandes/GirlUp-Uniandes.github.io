@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.99f735ad.chunk.css",
-    "main.js": "/static/js/main.16990c3d.chunk.js",
-    "main.js.map": "/static/js/main.16990c3d.chunk.js.map",
+    "main.css": "/static/css/main.9ce67161.chunk.css",
+    "main.js": "/static/js/main.52793f60.chunk.js",
+    "main.js.map": "/static/js/main.52793f60.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e2664bac.js",
     "runtime-main.js.map": "/static/js/runtime-main.e2664bac.js.map",
     "static/css/2.3da5fe11.chunk.css": "/static/css/2.3da5fe11.chunk.css",
-    "static/js/2.f079fe98.chunk.js": "/static/js/2.f079fe98.chunk.js",
-    "static/js/2.f079fe98.chunk.js.map": "/static/js/2.f079fe98.chunk.js.map",
+    "static/js/2.461d3254.chunk.js": "/static/js/2.461d3254.chunk.js",
+    "static/js/2.461d3254.chunk.js.map": "/static/js/2.461d3254.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.859c7e385d3dc232294aa4e000c33aea.js": "/precache-manifest.859c7e385d3dc232294aa4e000c33aea.js",
+    "precache-manifest.5261f4c6dab28063288ba69699615b58.js": "/precache-manifest.5261f4c6dab28063288ba69699615b58.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3da5fe11.chunk.css.map": "/static/css/2.3da5fe11.chunk.css.map",
-    "static/css/main.99f735ad.chunk.css.map": "/static/css/main.99f735ad.chunk.css.map",
-    "static/js/2.f079fe98.chunk.js.LICENSE.txt": "/static/js/2.f079fe98.chunk.js.LICENSE.txt",
+    "static/css/main.9ce67161.chunk.css.map": "/static/css/main.9ce67161.chunk.css.map",
+    "static/js/2.461d3254.chunk.js.LICENSE.txt": "/static/js/2.461d3254.chunk.js.LICENSE.txt",
     "static/media/Background1.png": "/static/media/Background1.bfcdc486.png",
     "static/media/BlueShape.png": "/static/media/BlueShape.2fa43664.png",
     "static/media/Causa1.png": "/static/media/Causa1.154ce361.png",
     "static/media/Causa2.png": "/static/media/Causa2.957c64fd.png",
     "static/media/Causa3.png": "/static/media/Causa3.4ccfc988.png",
     "static/media/Causa4.png": "/static/media/Causa4.63c2bdcc.png",
+    "static/media/Error.gif": "/static/media/Error.65b5ab33.gif",
     "static/media/Fondo2.png": "/static/media/Fondo2.15815d55.png",
+    "static/media/Fondo3.png": "/static/media/Fondo3.299a8516.png",
     "static/media/Friends.png": "/static/media/Friends.194abaaf.png",
     "static/media/GirlUpLoguito.png": "/static/media/GirlUpLoguito.6d2741b9.png",
     "static/media/InstagramIcon.png": "/static/media/InstagramIcon.787d9ef4.png",
@@ -37,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.e2664bac.js",
     "static/css/2.3da5fe11.chunk.css",
-    "static/js/2.f079fe98.chunk.js",
-    "static/css/main.99f735ad.chunk.css",
-    "static/js/main.16990c3d.chunk.js"
+    "static/js/2.461d3254.chunk.js",
+    "static/css/main.9ce67161.chunk.css",
+    "static/js/main.52793f60.chunk.js"
   ]
 }

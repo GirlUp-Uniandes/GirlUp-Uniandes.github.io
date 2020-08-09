@@ -7,6 +7,7 @@ import SmallBlogCard from "./SmallBlogCard";
 import ShareButton from "./ShareButton";
 import ZoomImage from "./ZoomImage";
 import posts from "../../posts/posts.json"
+import Error from "../../pages/error"
 
 const useStyles = makeStyles((theme) => ({
   containerFix: {
@@ -70,9 +71,8 @@ export default function BlogPost({ match }: RouteComponentProps<TParams>) {
   var bp= posts.filter((blogPost: any)=> (blogPost.id + "") === match.params.id);
   var blogPost = bp[0];
   var otherArticles = posts.filter((blogPost: any)=> (blogPost.id + "") !== match.params.id);
-  useEffect(() => {
-    document.title = `Girl Up Uniandes - ${blogPost.title}`;
-  }, [blogPost.title]);
+  if(blogPost !== undefined)
+  {
   return (
     <div className={classNames("container-fluid", classes.containerFix)}> 
     <NavBar />
@@ -159,31 +159,8 @@ export default function BlogPost({ match }: RouteComponentProps<TParams>) {
     </Box>
     </div>
   );
-}
-
-
-/*
-type TParams = { id: string };
-
-export default function BlogPost({ match }: RouteComponentProps<TParams>) {
-    return (
-        <div >
-            <NavBar />
-          <Button variant="contained">Default</Button>
-          <Button variant="contained" color="primary">
-            Primary
-          </Button>
-          <Button variant="contained" color="secondary">
-            Secondary
-          </Button>
-          <Button variant="contained" disabled>
-            Disabled
-          </Button>
-          <Button variant="contained" color="primary" href="#contained-buttons">
-            Link
-          </Button>
-          <h2>This is a page for blogpost with ID: {match.params.id} </h2>
-        </div>
-      );
   }
-*/
+  else{
+  return(<Error/>);
+  }
+}

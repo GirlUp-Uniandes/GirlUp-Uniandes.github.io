@@ -292,8 +292,23 @@ export default function Landing() {
           </Grid>
         </Grid>
         
-      </Grid>
-      
+      </Grid>  
+    );
+  }
+
+  interface Props {
+    src: string | any;
+    height: string;
+    width: string;
+    title: string;
+  }
+
+  function FormInscripcion({src, height, width, title}:Props) {
+    return ( 
+    <div>
+        <iframe title={title} src={src} height={height} width={width} 
+        style={{border:"none", maxWidth:"100%", maxHeight:"100vh"}}/>      
+    </div>
     );
   }
 
@@ -306,6 +321,9 @@ export default function Landing() {
       <QuienesSomos/>
       <CausasLocales/>
       <RedesSociales/>
+      <FormInscripcion 
+      src={"https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u"}
+       height={"480px"} width={"100%"} title={"Inscripción Girl Up Uniandes"}/>
     </div>
   );
 }

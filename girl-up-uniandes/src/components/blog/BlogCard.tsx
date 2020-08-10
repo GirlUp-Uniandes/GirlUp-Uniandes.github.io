@@ -131,7 +131,7 @@ function Share({option}:MyProps){
 export default function Blog({id, writer, email, title, image, description, date, tags}:Props) {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = useState(null);
-  const [selectedOption, setSelectedOption] = useState("1 Month");
+  const [selectedOption] = useState("");
 
   const handleClick = () => {
     window.location.href="/#/causas";
@@ -147,17 +147,13 @@ export default function Blog({id, writer, email, title, image, description, date
     setAnchorEl(null);
   }, [setAnchorEl]);
 
-  const selectOption = useCallback(
-    (selectedOption) => {
-      setSelectedOption(selectedOption);
-      handleClose();
-    },
-    [setSelectedOption, handleClose]
-  );
   const itemHeight = 216;
   const isOpen = Boolean(anchorEl);
   const options = ["Compartir en Facebook", "Compartir por WhatsApp", "Compartir por Email", 
   "Compartir en LinkedIn", "Compartir en Twitter"];
+  const titleShare = "Girl Up Uniandes";
+  const descriptionShare = "¡Encontré un post muy inspirador en Girl Up Uniandes! \n" + description + "\n¡Míralo aquí!: " +  window.location.href + "/" + id + "/";
+  const site = window.location.href + "/" + id + "/";
   return (
     <Card className={classes.root}>
       <Link to={"/blog/"+id} className={classes.noDecoration} tabIndex={-1}>
@@ -237,7 +233,25 @@ export default function Blog({id, writer, email, title, image, description, date
                   key={option}
                   selected={option === selectedOption}
                   onClick={() => {
-                    selectOption(option);
+                    //selectOption(option);
+                    if(option==="Compartir en Facebook") {
+                      window.location.href=`https://facebook.com/sharer/sharer.php?u=${site}`;
+                    }
+                    else if(option==="Compartir en Twitter") {
+                      window.location.href = `https://twitter.com/intent/tweet/?text=${descriptionShare}&amp;url=${site}`;
+                    }
+                    else if(option==="Compartir por Email") {
+                      window.location.href = `mailto:?subject=${titleShare}&amp;body=${site}`;
+                    }
+                    else if(option==="Compartir en LinkedIn") {
+                      window.location.href = `https://www.linkedin.com/shareArticle?mini=true&amp;url=${site}&amp;title=${titleShare}&amp;summary=${descriptionShare}&amp;source=${site}`;
+                    }
+                    else if(option==="Compartir por WhatsApp") {
+                      window.location.href = `whatsapp://send?text=${descriptionShare}`;
+                    }
+                    else {
+                      window.location.href = `/#error`;
+                    }
                   }}
                 >
                 <ListItemIcon>

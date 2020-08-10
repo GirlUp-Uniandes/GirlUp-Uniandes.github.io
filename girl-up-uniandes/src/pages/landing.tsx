@@ -4,18 +4,19 @@ import {Typography, Button, Grid, Link, Hidden, makeStyles, useMediaQuery,useThe
 import NavBar from '../components/navbar';
 import CausasLocales from '../components/localcauses'
 import InstagramEmbed from 'react-instagram-embed';
+import classNames from "classnames";
 
-import BannerImg from "../images/Powerful.gif"
-import Logotipo from "../images/Logotipo2.png"
-import Logotipo3 from "../images/Logotipo3.png"
-import TeamImg from "../images/Team.png"
-import BlueShape from "../images/BlueShape.png"
-import Friends from "../images/Friends.png"
-import PowerfulAmico from "../images/Powerful-amico.png"
-import UNFLogo from '../images/UNFLogo.png'
-import GirlUpLoguito from '../images/GirlUpLoguito.png'
-import Background1 from "../images/Background1.png"
-import IGIcon from "../images/InstagramIcon.png"
+import BannerImg from "../images/Powerful.gif";
+import Logotipo from "../images/Logotipo2.png";
+import Logotipo3 from "../images/Logotipo3.png";
+import TeamImg from "../images/Team.png";
+import BlueShape from "../images/BlueShape.png";
+import Friends from "../images/Friends.png";
+import PowerfulAmico from "../images/Powerful-amico.png";
+import UNFLogo from '../images/UNFLogo.png';
+import GirlUpLoguito from '../images/GirlUpLoguito.png';
+import Background1 from "../images/Background1.png";
+import IGIcon from "../images/InstagramIcon.png";
 
 import TextLoop from "react-text-loop";
 require('typeface-raleway');
@@ -35,7 +36,50 @@ const useStyles = makeStyles((theme) => ({
   },
   typography: {
     fontFamily: 'Raleway',
-  }
+  },
+  noDecoration: {
+    textDecoration: "none !important",
+    outline: "none !important",
+    '&:hover': {
+      outline: 'none',
+    },
+    '&:active': {
+      outline: 'none',
+    },
+  },
+  buttonLink: {
+      transition: theme.transitions.create(["background-color"], {
+        duration: theme.transitions.duration.complex,
+        easing: theme.transitions.easing.easeInOut
+      }),
+      cursor: "pointer",
+      color: 'white',
+      "&:hover": {
+        color: 'white'
+      }
+    },
+    blueLink: {
+      transition: theme.transitions.create(["background-color"], {
+        duration: theme.transitions.duration.complex,
+        easing: theme.transitions.easing.easeInOut
+      }),
+      cursor: "pointer",
+      color: theme.palette.secondary.main,
+      "&:hover": {
+        color: theme.palette.secondary.dark
+      }
+    },
+    pinkLink: {
+      transition: theme.transitions.create(["background-color"], {
+        duration: theme.transitions.duration.complex,
+        easing: theme.transitions.easing.easeInOut
+      }),
+      cursor: "pointer",
+      color: theme.palette.primary.main,
+      "&:hover": {
+        color: theme.palette.primary.dark
+      }
+    }
 }));
 
 export default function Landing() {
@@ -59,7 +103,10 @@ export default function Landing() {
               </Typography>
             </Grid>
             <Grid item >
-              <Button variant="contained" target="_blank" color="primary" href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u" style={{margin:15}} >
+              <Button className={classNames(classes.noDecoration, classes.buttonLink)} 
+              variant="contained" target="_blank" color="primary" 
+              href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u" 
+              style={{margin:15}} >
                 ¡Llena tus datos!
               </Button>
             </Grid>
@@ -132,7 +179,7 @@ export default function Landing() {
               comunidad que aboga por generar un cambio positivo en el mundo. <br/>
               Girl Up visualiza un mundo en el que cada mujer y cada niña pueda alcanzar su máximo potencial,   
               liderando grandes sueños que lleven a mejores comunidades y a países más fuertes. <br/>
-              De aquí, su lema: "Uniendo a las mujeres para cambiar el mundo".<Link target="_blank" href={"https://girlup.org/"} color = "secondary" > Leer más...</Link>
+              De aquí, su lema: "Uniendo a las mujeres para cambiar el mundo".<Link target="_blank" href={"https://girlup.org/"} className={classes.blueLink}  color = "secondary" > Leer más...</Link>
             </Typography>
             
           </Grid>
@@ -148,7 +195,7 @@ export default function Landing() {
               a abordar cuestiones como el cambio climático, la salud global, la paz, la seguridad, el empoderamiento de la mujer, la erradicación 
               de la pobreza, y el acceso a la energía, entre otros. <br />
               Esto, apoyando programas de UNICEF, ACNUR (UNHCR), FPNU (UNFPA) y ONU Mujeres que promuevan el desarrollo de los países.  
-              <Link target="_blank" href={"https://unfoundation.org/"} color = "primary" > Leer más...</Link>
+              <Link target="_blank" href={"https://unfoundation.org/"} color = "primary" className={classes.pinkLink} > Leer más...</Link>
             </Typography>
           </Grid>
           <Grid item sm >

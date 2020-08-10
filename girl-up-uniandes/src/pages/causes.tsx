@@ -41,7 +41,7 @@ function EnConstruccion(width:any){
                     </Grid>
                     <Grid item >
                         <Typography variant={isMobileOrTablet ? "h6" : "h5"} color="secondary" display="block" style={{fontWeight: "bold", textAlign:'center',marginLeft: 20, marginRight: 20 }} > 
-                            Muy pronto podrás saber más de causas...                
+                            Muy pronto podrás saber más de nuestras causas...                
                         </Typography >                          
                     </Grid>
                 </Grid>

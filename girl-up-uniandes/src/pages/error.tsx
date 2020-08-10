@@ -18,7 +18,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-function EnConstruccion(width:any){
+function Error404(width:any){
     const classes = useStyles(); 
     return(
         <div >
@@ -46,7 +46,7 @@ export default function Error() {
     return (
       <div>
         <NavBar/>
-        < EnConstruccion/>
+        < Error404/>
       </div>
     );
   }

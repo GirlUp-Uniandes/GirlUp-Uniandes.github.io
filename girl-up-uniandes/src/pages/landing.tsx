@@ -141,18 +141,17 @@ export default function Landing() {
             <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Inteligente, Capaz</Typography>
             <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}    >Seria, Entusiasta</Typography>
             <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}    >Aventurera, Curiosa</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}    >Y Fuerte.</Typography>
+            <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}    >Fuerte.</Typography>
             <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Que sigue y que lidera.</Typography>
             <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Que aprende, que enseña.</Typography>
             <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Con una voz que habla</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Llena de ideas para defender</Typography>
+            <Typography  color="primary" variant={isMobileOrTablet ? "subtitle1" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Llena de ideas para defender</Typography>
             <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Que importa, y ella también.</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >y ella es como yo.</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "subtitle1" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Somos mujeres y juntas, nos levantaremos.</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "subtitle1" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >y aunque soy fuerte, juntas somos más fuertes.</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}    >Somos mujeres</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "body2" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >y juntas nuestras voces cambiarán el mundo.</Typography>
-            <Typography  color="primary" variant={isMobileOrTablet ? "subtitle1" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Tú ves una chica, nosotras vemos el futuro.</Typography>
+            <Typography  color="primary" variant={isMobileOrTablet ? "h5" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Y ella es como yo.</Typography>
+            <Typography  color="primary" variant={isMobileOrTablet ? "subtitle1" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Y todas juntas, nos levantaremos.</Typography>
+            <Typography  color="primary" variant={isMobileOrTablet ? "body2" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Y, aunque soy fuerte, juntas somos más fuertes.</Typography>
+            <Typography  color="primary" variant={isMobileOrTablet ? "body2" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Y, juntas, nuestras voces cambiarán el mundo.</Typography>
+            <Typography  color="primary" variant={isMobileOrTablet ? "body2" : "h3"} className={classes.typography} style={{fontWeight: "bold",overflow: "visible"}}   >Tú ves una chica, nosotras vemos el futuro.</Typography>
           </TextLoop>
         </Grid>
       </Grid>
@@ -227,7 +226,10 @@ export default function Landing() {
                         <img alt="complex" src={Logotipo3} style={{maxWidth: '40%',minWidth: '30%', textAlign: "center", marginLeft:"30%",marginRight:"30%"}}/>
                     </Grid>
                     <Typography className={classes.typography} variant="h5" component="h6"  style={{color:"#FAC8C8",textAlign: "justify",margin:60}} >
-                      Con Girl Up Uniandes queremos generar un impacto en nuestra comunidad uniandina, en nuestra ciudad, Bogotá y en nuestro país, Colombia. Descubre nuestro programa de mentorías para niñas de colegio, estudiantes de primer semestre y estudiantes a punto de graduarse de la U. Ayúdanos a promover la educación, porque educar a una niña, es educar a todo un país. ¡Apóyanos a llevar STEAM (ciencia, tecnología, ingeniería, arte y matemáticas) a todos los rincones de nuestro hermoso país y del mundo!  
+                      Con Girl Up Uniandes queremos generar un impacto en nuestra comunidad uniandina, en nuestra ciudad, Bogotá y en nuestro país, Colombia. 
+                      Descubre nuestro programa de mentorías para niñas de colegio, estudiantes de primer semestre y estudiantes a punto de graduarse de la U. 
+                      Ayúdanos a promover la educación, porque educar a una niña, es educar a todo un país. 
+                      ¡Apóyanos a llevar STEAM (ciencia, tecnología, ingeniería, arte y matemáticas) a todos los rincones de nuestro hermoso país y del mundo!  
                     </Typography>
                 </Grid>
             </Grid>

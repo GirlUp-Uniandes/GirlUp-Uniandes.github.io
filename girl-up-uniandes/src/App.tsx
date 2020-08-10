@@ -50,7 +50,7 @@ function App() {
             <Route exact path='/mentoria' component={Mentorship} />
             <Route exact path='/girlup' component={Girlupuniandes} />
             <Route exact path='/eventos' component={Events} />
-            <Route path="/blog/:id" component={BlogPost} />
+            <Route path='/blog/:id' component={BlogPost} />
             </ThemeProvider>
           </Switch>
         </div>

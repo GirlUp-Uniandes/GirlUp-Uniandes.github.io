@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme: Theme) =>
     gridList: {
       flexWrap: 'nowrap',
       transform: 'translateZ(0)',
+      maxWidth: '90%'
     },
     gridListTile: {
         maxHeight: "100%"

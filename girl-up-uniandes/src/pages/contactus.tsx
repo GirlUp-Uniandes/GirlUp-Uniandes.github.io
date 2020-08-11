@@ -1,15 +1,16 @@
 import React from 'react'
-import "../css/styles.css";
-import UnderConstruction from '../images/UnderConstruction.gif';
-import Logotipo2 from '../images/Logotipo2.png';
-import Fondo2 from '../images/Fondo2.png';
+//import "../css/styles.css";
+//import UnderConstruction from '../images/UnderConstruction.gif';
+//import Logotipo2 from '../images/Logotipo2.png';
+//import Fondo2 from '../images/Fondo2.png';
 
-import NavBar from '../components/navbar';
+//import NavBar from '../components/navbar';
+import Inscripcion from '../components/inscripcion'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Grid,Typography, makeStyles, Button, useMediaQuery,useTheme} from '@material-ui/core';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import {Grid,Typography, makeStyles, Button, useMediaQuery,useTheme} from '@material-ui/core';
 
-
+/*
 
 const useStyles = makeStyles((theme) => ({
     banner: {
@@ -59,12 +60,12 @@ function EnConstruccion(width:any){
         </div>
     );
 }
+*/
 
 export default function Contactanos() {
     return (
       <div>
-        <NavBar/>
-        < EnConstruccion/>
+          <Inscripcion/>
       </div>
     );
   }

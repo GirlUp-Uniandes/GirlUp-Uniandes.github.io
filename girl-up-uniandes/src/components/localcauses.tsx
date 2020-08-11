@@ -91,7 +91,7 @@ function CausasLocales(width: any) {
                 <Typography variant="body2" style={{textAlign: "justify"}}>
                   Queremos empoderar a la mujer colombiana, a través de proyectos que muestren lo mejor 
                   de cada una de nosotras. Desde la Universidad, y de cara a nuestra ciudad y a nuestro país, 
-                  queremos lograr que cada niña y cada mujer logre cumplir sus sueños y metas. 
+                  queremos que cada niña y cada mujer logre cumplir sus sueños y metas. 
                 </Typography>
               </Grid>
               <Grid item >

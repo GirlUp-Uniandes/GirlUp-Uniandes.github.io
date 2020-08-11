@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import "../css/styles.css";
 import {Typography, Button, Grid, Link, Hidden, makeStyles, useMediaQuery,useTheme} from '@material-ui/core';
 import NavBar from '../components/navbar';
 import CausasLocales from '../components/localcauses'
 import InstagramEmbed from 'react-instagram-embed';
 import classNames from "classnames";
+import TextLoop from "react-text-loop";
 
 import BannerImg from "../images/Powerful.gif";
 import Logotipo from "../images/Logotipo2.png";
@@ -18,7 +19,8 @@ import GirlUpLoguito from '../images/GirlUpLoguito.png';
 import Background1 from "../images/Background1.png";
 import IGIcon from "../images/InstagramIcon.png";
 
-import TextLoop from "react-text-loop";
+import SingleLineGridList from "../components/gridlist";
+
 require('typeface-raleway');
 
 
@@ -104,8 +106,8 @@ export default function Landing() {
             </Grid>
             <Grid item >
               <Button className={classNames(classes.noDecoration, classes.buttonLink)} 
-              variant="contained" target="_blank" color="primary" 
-              href="https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u" 
+              variant="contained" color="primary" 
+              href="/#inscripcion"
               style={{margin:15}} >
                 ¡Llena tus datos!
               </Button>
@@ -241,7 +243,7 @@ export default function Landing() {
 
   function RedesSociales(){
     return(
-      <Grid container direction="column" justify="center" alignItems="center" className={classes.backgroundQuienesSomos} >
+      <Grid container direction="column" justify="center" alignItems="center" className={classes.backgroundQuienesSomos} style={{marginTop: 25}} >
         <Grid item container direction="row" justify="center" alignItems="center"  >
           <Grid item lg={6}sm >
             <Grid item container direction="column" justify="center" alignItems="center" >
@@ -295,23 +297,6 @@ export default function Landing() {
       </Grid>  
     );
   }
-
-  interface Props {
-    src: string | any;
-    height: string;
-    width: string;
-    title: string;
-  }
-
-  function FormInscripcion({src, height, width, title}:Props) {
-    return ( 
-    <div>
-        <iframe title={title} src={src} height={height} width={width} 
-        style={{border:"none", maxWidth:"100%", maxHeight:"100vh"}}/>      
-    </div>
-    );
-  }
-
   return (
     <div style={{ overflowX:"hidden"}}>
       <NavBar/>
@@ -320,10 +305,8 @@ export default function Landing() {
       <TextoAnimado/>
       <QuienesSomos/>
       <CausasLocales/>
+      <SingleLineGridList/>
       <RedesSociales/>
-      <FormInscripcion 
-      src={"https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u"}
-       height={"480px"} width={"100%"} title={"Inscripción Girl Up Uniandes"}/>
     </div>
   );
 }

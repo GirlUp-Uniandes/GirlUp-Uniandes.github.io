@@ -104,22 +104,22 @@
 <div align="center"><a name="menu"></a>
   <h4>
     <a href="https://girlup-uniandes.github.io/">
-      Visita our webpage!
+      Visit our webpage!
     </a>
     <span> | </span>
-    <a href="https://www.vCloudInfo.com/tag/iot">
+    <a href=#girl-up-es>
       About Girl Up
     </a>
     <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig#devices">
+    <a href=#girl-up-uniandes-es>
       About Girl Up Uniandes
     </a>
     <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+    <a href=#run-es>
       Run the project locally
     </a>
    <span> | </span>
-    <a href="https://github.com/CCOSTAN/Home-AssistantConfig/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+    <a href=#contribuye-es>
       Contribute to the webpage
     </a>
   </h4>

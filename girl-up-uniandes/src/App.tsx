@@ -14,6 +14,7 @@ import Landing from './pages/landing';
 import ContactUs from './pages/contactus'
 import BlogPost from './components/blog/BlogPost'
 import Inscripcion from './components/inscripcion'
+import SendPost from './components/blog/SendPost'
 
 const theme = createMuiTheme({
   palette: {
@@ -53,6 +54,7 @@ function App() {
             <Route exact path='/girlup' component={Girlupuniandes} />
             <Route exact path='/eventos' component={Events} />
             <Route exact path='/inscripcion' component={Inscripcion} />
+            <Route exact path='/enviar' component={SendPost} />
             </ThemeProvider>
           </Switch>
         </div>

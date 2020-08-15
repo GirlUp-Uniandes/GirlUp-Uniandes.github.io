@@ -1,10 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {Grid, Box, isWidthUp, withWidth} from '@material-ui/core';
+import {Grid, Box, isWidthUp, withWidth, Typography, useMediaQuery, useTheme, Button} from '@material-ui/core';
 import posts from '../posts/posts.json'
 import BlogCard from '../components/blog/BlogCard'
 import classNames from 'classnames';
 import NavBar from '../components/navbar';
+
+require('typeface-raleway');
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,7 +27,20 @@ const useStyles = makeStyles((theme) => ({
   },
   noDecoration: {
     textDecoration: "none !important"
-  }
+  },
+  typography: {
+    fontFamily: 'Raleway',
+  },
+  noDecorationButton: {
+    textDecoration: "none !important",
+    outline: "none !important",
+    '&:hover': {
+      outline: 'none',
+    },
+    '&:active': {
+      outline: 'none',
+    },
+  },
 }));
 
 function getVerticalBlogPosts(width: any) {
@@ -69,10 +84,28 @@ interface Props {
 function Blog({width} : Props) 
 {
 const classes = useStyles(); 
+const theme = useTheme();
+const isMobileOrTablet = useMediaQuery(theme.breakpoints.down("sm"));
+
 return (
   <div>
     <NavBar/>
-    <Box style = {{marginTop:100}}
+    <Grid container>
+    <Grid item xs={isMobileOrTablet ? "auto" : 3} style = {{marginTop:100}}></Grid>
+    <Grid item xs={isMobileOrTablet ? 12 : 6} style = {{marginTop:100}}>
+      <Typography className={classes.typography} variant="h4" component="h5" style={{textAlign: "center", color:"#5B3367"}} >
+              <b>Nuestras historias</b>
+      </Typography>
+    </Grid>
+    <Grid item xs={isMobileOrTablet ? 12 : 3} style = {isMobileOrTablet ? {marginTop:25} : {marginTop:100, marginRight:0}}>
+    <Typography className={classes.typography} style={{textAlign: "center", color:"#12B7EF"}} >
+        <Button variant="contained" href="/#enviar" className={classes.noDecorationButton} style={{backgroundColor:"#5B3367",color:"#ffffff"}}>
+                  ¡Envíanos tu historia!
+        </Button>
+      </Typography>
+      </Grid>
+    </Grid>
+    <Box style = {{marginTop:25}}
         display="flex"
         justifyContent="center"
         className={classNames(classes.wrapper, "lg-p-top")}

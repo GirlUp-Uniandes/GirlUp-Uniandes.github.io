@@ -66,3 +66,23 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+***
+
+Algunas ideas para el calendario:
+<ul>
+  <li>http://jquense.github.io/react-big-calendar/examples/index.html</li>
+  <li><a href=https://www.npmjs.com/package/react-calendar-events/></li>
+  <li><a href=https://www.npmjs.com/package/react-calendar-events/></li>
+  <li><a href=https://openbase.io/packages/top-react-calendar-libraries/></li>
+  <li><a href=https://reactjsexample.com/tag/calendar/></li>
+  <li><a href=https://www.npmjs.com/package/react-calendar/></li>
+  <li><b><a href=https://github.com/wojtekmaj/react-calendar/></b></li>
+  <li><a href=https://github.com/jasonleibowitz/react-add-to-calendar-hoc /></li>
+  <li><a href=http://leibowitz.me/react-add-to-calendar-hoc/docs/></li>
+  <li><b><a href=https://www.npmjs.com/package/react-add-to-calendar >Este me gusta mucho</a></b></li>
+  <li><a href=https://github.com/jasonsalzman/react-add-to-calendar/blob/master/docs/ReactAddToCalendar.md /></li>
+  <li><b><a href=https://jasonsalzman.github.io/react-add-to-calendar/ /></b></li>
+  <li><a href=https://dptoot.github.io/react-event-calendar/ >Este me encanta, con los que están en negrilla</a></li>
+  <li><a href=https://reactjsexample.com/a-small-package-for-adding-an-event-to-a-calendar/ >Este también</a></li>
+</ul>

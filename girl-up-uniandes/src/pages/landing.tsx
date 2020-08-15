@@ -167,7 +167,7 @@ export default function Landing() {
         <Grid item container direction="row" justify="center" alignItems="center"  >
           <Grid item sm >
             <Hidden xsDown>
-              <img alt="complex" src={PowerfulAmico} style={{maxWidth: '100%',minWidth: '40%', textAlign: "center", marginLeft:'20%',marginRight:'20%'}}/>
+              <img alt="complex" src={PowerfulAmico} style={{maxWidth: '100%',minWidth: '40%', textAlign: "center", marginRight:'5%', marginLeft:'10%', alignSelf: "center", alignItems: 'center'}}/>
             </Hidden>
           </Grid>
           <Grid item sm >
@@ -201,7 +201,7 @@ export default function Landing() {
           </Grid>
           <Grid item sm >
             <Hidden xsDown>
-              <img alt="complex" src={Friends} style={{maxWidth: '100%',minWidth: '40%', textAlign: "center", marginLeft:'20%',marginRight:'20%'}}/>
+              <img alt="complex" src={Friends} style={{maxWidth: '100%',minWidth: '40%', textAlign: "center",  marginRight:'10%', marginLeft:'5%', alignSelf: "center", alignItems: 'center'}}/>
             </Hidden>
           </Grid>
         </Grid>

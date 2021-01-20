@@ -28,6 +28,6 @@ function FormInscripcion({src, height, width, title}:Props) {
 
 export default function Inscripcion(){
     return(<FormInscripcion 
-    src={"https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9UNzY2UUxMWkRISEVLN0dHMkRCVDZOWjNYSS4u"}
+    src={"https://forms.office.com/Pages/ResponsePage.aspx?id=fAS9-kj_KkmLu4-Yufucynr0Ske4AbBPrSHUPJVzvD9URjMxRlAxSUVZTjY2N0Q4UUpVSUVMWDk5UC4u"}
      height={"2000px"} width={"100%"} title={"Inscripción Girl Up Uniandes"} />);
 }
